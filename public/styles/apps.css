@@ -1,0 +1,497 @@
+/* Animaciones */
+
+.view-enter, .view-leave, .slide-enter, .slide-leave, .wave-enter, .wave-leave {
+  -webkit-transition:all cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.5s;
+  -moz-transition:all cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.5s;
+  -o-transition:all cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.5s;
+  transition:all cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.5s;
+}
+
+.view-enter {
+  opacity:0;
+  left:100px;
+  width:100%;
+  position:absolute;
+}
+.view-enter.view-enter-active {
+  left:0;
+  opacity:1;
+}
+
+.view-leave {
+  position:absolute;
+  left:0;
+  width:100%;
+  opacity:1;
+}
+.view-leave.view-leave-active {
+  left:-100px;
+  opacity:0;
+}
+
+#ng-view {
+  position:relative;
+  min-height:700px;
+}
+
+.fade-hide, .fade-show{
+  -webkit-transition:all cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.5s;
+  -moz-transition:all cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.5s;
+  -o-transition:all cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.5s;
+  transition:all cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.5s;
+}
+
+.fade-hide {
+  opacity:1;
+}
+.fade-hide.fade-hide-active {
+  opacity:0;
+}
+
+.fade-show {
+  opacity:0;
+}
+.fade-show.fade-show-active {
+  opacity:1;
+}
+
+.top-bar-section ul li > a:hover {
+    background: #0083B3; 
+}
+
+#header {
+	height: 100px;
+	background-color: #000;
+}
+
+/*#apps4health-intro a {
+    color: #444;
+    line-height: inherit;
+    text-decoration: underline;
+}*/
+
+
+h1.hackathon {
+text-align: center;
+font-size: 4em;
+letter-spacing: 1px;
+color: #0085B2;
+margin: 0;
+}
+
+h1.proyectos {
+text-align: center;
+font-size: 4em;
+letter-spacing: 1px;
+color: #0085B2;
+text-transform: uppercase;
+  line-height: 3em;
+}
+
+
+
+h4.sub-hackathon {
+	color:#777777;
+font-style: normal;
+font-weight: 400;
+text-transform: uppercase;
+text-align: center;
+font-size: 2.4em;
+border-top: 2px solid #0083B3;
+border-bottom: 2px solid #0083B3;
+ letter-spacing: 0.03em;
+}
+
+h3 {
+	font-size: 3em;
+	color: #009EDC;
+	margin: 0;
+
+}
+
+h3.subheader {
+	color: #777777;
+	font-size: 2em;
+}
+
+
+h4 {
+    color: #0085B2;
+    font-size: 1.4375em;
+}
+
+
+#apps4health-intro h4 {
+   font-size: 1.8em;
+    text-align: center;
+}
+
+.presentacion {
+text-align: center;
+font-weight: 500;
+color: #444444;
+font-size: 1.3em;
+
+}
+
+#apps4health-intro {
+	    padding: 65px;
+	    background: url("../img/bg-textura.png");
+}
+#proyecto-seccion, #inscripcion, #redes {
+	   background: url("../img/bg-textura.png");
+}
+
+
+#proyectos .button, #inscripcion .button{
+  margin: 31px 0;
+  text-transform: uppercase;
+  border-radius: 5px;
+  font-family: "league-gothic",sans-serif;
+  box-shadow: none;
+  font-size: 1.5em;
+  font-weight: normal;
+  letter-spacing: 1px;
+  border-style: none;
+  padding-top: 0.4em;
+   padding-bottom: 0.4em;
+}
+
+
+#premios-jurado h5 {
+	color: #00B9FF;
+	font-family: "garamond-premier-pro",Arial,sans-serif;
+	font-weight: 500;
+	font-size: 1.5em;
+	 margin-bottom: 0.2em;
+   margin-top: 0.5em;
+}
+
+.t-premios {
+	color: #EBEBEB;
+	font-size: 1.2em;
+}
+
+
+#premios-jurado {
+	background: url("../img/bg-central.png");
+	padding: 65px;
+}
+
+#premios-jurado h4, #donde h4, #colaboradores h4 {
+color: #fff;
+text-transform: uppercase;
+ font-size: 1.9em;
+ letter-spacing: 1px;
+}
+
+#donde {
+
+	background: url("../img/bg-bot.png");
+	padding: 65px;
+
+}
+
+
+.jurado-r {
+padding: 20px 0px;
+}
+
+
+#premios-jurado p{
+	color: #EBEBEB;
+}
+
+#donde p {
+	color: #fff;
+	margin-bottom: 0.2em;
+	line-height: 1.4em;
+}
+
+p.t-donde-mini {
+	font-size: 1.2em;
+}
+
+span.t-donde-mini {
+	font-size: 0.8em;
+}
+
+.t-donde {
+		font-size: 1.4em;
+}
+
+.separador {
+padding-top: 50px;
+}
+
+.move {
+    padding-bottom: 1.32em;
+}
+
+
+#proyecto-seccion p {
+	color:#545454;
+	font-size: 1.3em;
+	padding-left: 15px;
+}
+
+
+#proyecto-seccion strong {
+color: #007FB3
+}
+
+#proyecto-seccion h1 {
+    color: #009FD9;
+    font-size: 3.5em;
+    letter-spacing: 1px;
+    margin-bottom: 0;
+    padding-left: 10px;
+}
+
+#proyecto-seccion h3.subheader {
+color: #00B7FF;
+padding-left: 10px;
+}
+
+#proyecto-seccion img {
+  border: 8px solid #FFFFFF;
+  margin-bottom: 20px;
+}
+
+.contenido li {
+  margin-left: 40px;
+  	color:#545454;
+	font-size: 1.3em;
+}
+
+.contenido {
+	   padding-bottom: 60px;
+}
+
+.bread {
+	 padding-top: 40px;
+}
+
+
+
+.ul-pre {
+	margin-bottom: 3px;
+}
+
+.formulario-i {
+
+}
+
+#inscripcion h2, #paginas-footer h2 {
+	color: #009FD9;
+	letter-spacing: 1px;
+	 font-size: 2.8em;
+}
+
+
+#inscripcion label {
+	color: #007FB3;
+	font-weight: 600;
+
+}
+
+.formulario-i {
+font-family: "Arial", sans-serif;
+
+}
+
+#inscripcion {
+padding-bottom: 70px;
+}
+
+
+.formulario-i {
+	background-color: #fff;
+}
+
+.first {
+	 padding-top: 60px;
+}
+
+#paginas-footer h3 {
+	   font-size: 1.8em;
+    letter-spacing: 1px;
+}
+#paginas-footer h3.subheader {
+	   font-size: 1em;
+font-family: "Arial",sans-serif;
+letter-spacing: 0;
+font-weight: bold;
+}
+
+
+#paginas-footer  {
+	padding: 65px;
+}
+
+#paginas-footer a:hover {
+	opacity: 0.7;
+}
+
+.breadcrumbs {
+font-family: "Arial",sans-serif;
+}
+
+
+span.error, small.error {
+    background: none repeat scroll 0 0 #ccc;
+    color: white;
+    display: block;
+    font-size: 0.75em;
+    font-weight: bold;
+    margin-bottom: 1em;
+    margin-top: -1.3125em;
+    padding: 0.375em 0.7em;
+}
+
+#proyecto-seccion p.pregunta {
+    margin-bottom: 0.4em;
+
+}
+
+input[type="text"][disabled] {
+	background-color: #F3F3F3;
+}
+
+
+#proyecto-seccion h4 {
+color: #009FD9;
+padding-left: 12px;
+}
+
+
+.s-donde{
+	position: relative;
+    top: -2px;
+}
+
+#redes {
+	padding: 70px;
+}
+
+#redes h4 {
+	color: #009EDC;
+	font-size: 1.9em;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+} 
+
+
+.temp {
+	margin-top: 11px;
+    padding-right: 26px;
+}
+
+
+input[type="checkbox"] {
+	margin: 0.3em;
+}
+
+.check-acepto {
+	font-size: 0.9em;
+	line-height: 2em;
+}
+
+
+#colaboradores {
+}
+
+#colaboradores h5 {
+color: #fff;
+text-transform: uppercase;
+letter-spacing: 1px;
+ font-size: 1.3em;
+}
+
+.colaboradores-container {
+	background-color: #000;
+	padding-top: 7px;
+}
+.logos-container {
+  padding: 34px 0 15px;
+}
+
+.logos {
+	padding-top: 33px;
+}
+.logo-organiza li {
+	display: inline;
+}
+
+.line {
+	height: 6px;
+	background-color: #282828;
+}
+
+
+.alert-box {
+    top: 40px;
+}
+
+#colaboradores a:hover {
+  opacity: 0.6;
+}
+
+.libre {
+  font-size: 1.3em;
+  color: #444444;
+  margin-bottom: 0.2em;
+}
+
+.app-libre {
+padding: 35px 0;
+}
+
+.app-texto {
+    background-color: #fff;
+    font-size: 0.9em;
+    margin-top: 40px;
+
+}
+
+
+#proyecto-seccion h4.app {
+  background-color: #009FD9;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.a-texto {
+  padding: 20px;
+}
+
+p#t-alojamiento {
+  font-size: 1em;
+  color: #ccc;
+}
+
+.premio-badge {
+    height: 51px;
+    margin: 0 auto;
+    position: relative;
+    top: -56px;
+    width: 300px;
+}
+
+#premios  {
+  background: url("../img/bg-textura2.png") center repeat;
+  padding-bottom: 42px;
+}
+
+.reglas {
+  margin: 0 auto;
+  text-align: center;
+}
+
+#como-llegar a {
+  padding-left: 15px;
+}
+
+
+
