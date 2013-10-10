@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('apps4healtApp')
+angular.module('bimeApp')
   .controller('ApplibreCtrl', function ($scope, ServicioInscripcion, Correo, $timeout) {
   	$scope.proyecto = 'App Libre';
  		$scope.casa = 'no'; 

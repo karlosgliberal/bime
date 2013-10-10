@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('apps4healtApp')
+angular.module('bimeApp')
   .controller('AltaCtrl', function ($scope) {
     $scope.movida = [
       'HTML5 Boilerplate',

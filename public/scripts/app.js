@@ -1,8 +1,8 @@
 /*global angular*/
 'use strict';
 
-angular.module('apps4healtApp', ['firebase', 'ngGrid', 'inscripcion', 'footer', 'angular-flash.flash-alert-directive', 'FireServices', 'EnvioCorreoService'])
-  .value('firebaseUrl', 'https://interzonas.firebaseio.com/altas/')
+angular.module('bimeApp', ['firebase', 'ngGrid', 'inscripcion', 'footer', 'angular-flash.flash-alert-directive', 'FireServices', 'EnvioCorreoService'])
+  .value('firebaseUrl', 'https://bime.firebaseio.com/altas/')
   .config(function ($routeProvider) {
     $routeProvider
       .when('/', {

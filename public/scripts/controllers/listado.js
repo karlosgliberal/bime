@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('apps4healtApp')
+angular.module('bimeApp')
   .controller('AltaCtrl', function ($scope, angularFireCollection, angularFireAuth, flash) {
     var urlAuth = 'https://interzonas.firebaseio.com/';
     angularFireAuth.initialize(urlAuth, {

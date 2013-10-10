@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('apps4healtApp')
+angular.module('bimeApp')
   .controller('IndiaCtrl', function ($scope, ServicioInscripcion, Correo, $timeout) {
   	$scope.proyecto = 'India';
  		$scope.casa = 'no'; 

@@ -1,7 +1,7 @@
 /*global angular*/
 'use strict';
 
-angular.module('apps4healtApp')
+angular.module('bimeApp')
   .controller('GhanaCtrl', function ($scope, ServicioInscripcion, Correo, $timeout) {
     $scope.proyecto = 'Ghana';
     $scope.casa = 'no';
