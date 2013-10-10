@@ -6,8 +6,8 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Apps4Health</title>
-    <meta name="description" content="La ONGD Anesvad propone la realización de una hackatón que reúna alrededor de 60 desarrolladores de aplicaciones para dispositivos móviles, con la intención de diseñar 5 Apps enfocadas en temas de promoción de la salud.">
+    <title>Bime Hack a Day</title>
+    <meta name="description" content="">
     <meta name="viewport" content="width=device-width">
 
        <!-- build:css({.tmp,app}) styles/main.css -->
@@ -16,90 +16,17 @@
         <link rel="stylesheet" href="bower_components/ng-grid/ng-grid.css">
         <link rel="stylesheet" href="styles/apps.css">
         <script src="bower_components/foundation/js/vendor/custom.modernizr.js"></script>
-        <script type="text/javascript" src="//use.typekit.net/mds3teh.js"></script>
-        <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
         <!-- endbuild -->
 </head>
 <body ng-app="bimeApp">
 <style ng-bind-html-unsafe="style"></style>
-
-<div id="header"> 
-  <div class="row">
-    <nav class="top-bar" style="">
-      <ul class="title-area">
-        <!-- Title Area -->
-        <li class="logo">
-          <a href="/">
-            <img src="/img/logo.png" alt="Apps4health">
-          </a>
-        </li>
-        <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
-      </ul>
-    <section class="top-bar-section">
-        <ul class="right">
-          <li class=""><a href="#/">Inicio</a></li>
-          <li class=""><a href="#/hackathon">¿Que es un hackathon social?</a></li>
-          <li class=""><a href="#/apps4health">Apps4health</a></li>
-          <li class=""><a href="#/contacta">Contacta</a></li>
-          <li class=""><a href="#/faq">Faq</a></li>
-        </ul>
-      </section>
-    </nav>
-  </div>
-</div>
-
+<h1>Soy el index.ejs</h1>
 <div ng-view="" id="ng-view" ng-animate="{enter: 'view-enter'}"></div>
-<div id="donde">
-<div class="row">
-  <div class="large-12"><h4 class="donde-cuando">Cuándo y dónde <span class="s-donde"><img src="/img/donde.png"></span></h4></div>  
-  
-  <div class="large-4 columns">
-    <p class="t-donde">Sábado 28 de septiembre de 2013</p><p class="t-donde-mini">Horario: 10 a 22h</p>
-  </div>
-  
-  <div class="large-4 columns">
-    <p class="t-donde">Espacio Open. Antigua Fábrica de Artiach. <span class="t-donde-mini">Zorrozaurre, Bilbao</span>
-    </p>
-    <p><a href="#/apps4health#como-llegar">Como llegar</a></p>
-  </div>
-  <div class="large-4 columns">
-    <p class="t-donde">Nº máximo participantes: 50</p>
-  </div>
-</div>
-</div>
+<div cabecera-menu></div>
+<div footer-inscribir></div>
+<div footer-main></div>
 
-<div id="colaboradores">
- <div class="colaboradores-container"> 
-  <div class="row">
-  <div class="large-4 columns"><h5>Organiza</h5>
-          </div>
-          <div class="large-8 columns"><h5>Colaboran</h5>
-          </div>
 
-  </div>
-</div>
-<div class="logos-container"> 
-    <div class="row">
-          <div class="large-4 columns">
-            <ul class="logo-organiza">
-              <li><a href="http://www.anesvad.org/es/" target="_blank"><img src="/img/logo-anesvad.png" alt="Anesvad"></a></li>
-            </ul> 
-          </div>
-          <div class="large-8 columns">
-            <ul class="large-block-grid-6 logos">
-              <li><a href="http://espacioopen.com/" target="_blank"><img src="/img/logo-open.png" alt="Espacio Open"></a></li>
-               <li><a href="http://tapquo.com/" target="_blank"><img src="/img/logo-tapquo.png" alt="Tapquo">
-               </a></li>
-                <li><a href="http://interzonas.info/" target="_blank"><img src="/img/logo-interzonas.png" alt="Interzonas"></a></li>
-                <li><a href="http://hirikilabs.tabakalera.eu/" target="_blank"><img src="/img/hiriki.png" alt="Hirikilabs"></a></li>
-                 <li><a href="http://madrid.theappdate.com/" target="_blank"><img src="/img/app-date.png" alt="The app date"></a></li>
-            </ul>
-          </div>
-        </div>
-        
-  </div>
- <div class="line"></div>
-</div>
 
     <!--[if lt IE 7]>
       <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
@@ -115,16 +42,6 @@
       '.js><\/script>')
     </script>
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-   <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-42994490-1', 'apps4health.es');
-  ga('send', 'pageview');
-
-</script>
     <script src="bower_components/angular/angular.js"></script>
 
     <!-- build:js({.tmp,app}) scripts/scripts.js -->
