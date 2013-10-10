@@ -1,7 +1,7 @@
 /*global angular*/
 'use strict';
 
-angular.module('bimeApp', ['ngGrid', 'EnvioCorreoService', 'pascalprecht.translate'])
+angular.module('bimeApp', ['ngGrid', 'cabecera', 'footer', 'footerInscribir', 'EnvioCorreoService', 'pascalprecht.translate'])
   .config(function ($routeProvider, $translateProvider) {
     $routeProvider
       .when('/', {
@@ -15,8 +15,13 @@ angular.module('bimeApp', ['ngGrid', 'EnvioCorreoService', 'pascalprecht.transla
       .otherwise({
         redirectTo: '/'
       });
-    $translateProvider.translations({
-      HEADLINE: 'Hello <a href="hool">there</a>, This is my awesome app!',
-      INTRO_TEXT: 'And it has i18n support!'
+    $translateProvider.translations('es',{
+      HEADLINE: 'hola',
+      BUTTON_TEXT_ES: 'Booton ESPAÑOL'
+    })
+    .translations('eu',{
+      HEADLINE: 'Kaixo',
+      BUTTON_TEXT_EU: 'Boton AIAIAIAI'
     });
+    $translateProvider.preferredLanguage('es');
   });
