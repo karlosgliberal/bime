@@ -15,6 +15,7 @@ angular.module('bimeApp', ['ngGrid', 'cabecera', 'footer', 'footerInscribir', 'E
       .otherwise({
         redirectTo: '/'
       });
+ 
     $translateProvider.translations('es',{
       HEADLINE: 'hola',
       BUTTON_TEXT_ES: 'Booton ESPAÑOL',
