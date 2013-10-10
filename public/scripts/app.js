@@ -1,63 +1,22 @@
 /*global angular*/
 'use strict';
 
-angular.module('bimeApp', ['firebase', 'ngGrid', 'inscripcion', 'footer', 'angular-flash.flash-alert-directive', 'FireServices', 'EnvioCorreoService'])
-  .value('firebaseUrl', 'https://bime.firebaseio.com/altas/')
-  .config(function ($routeProvider) {
+angular.module('bimeApp', ['ngGrid', 'EnvioCorreoService', 'pascalprecht.translate'])
+  .config(function ($routeProvider, $translateProvider) {
     $routeProvider
       .when('/', {
         templateUrl: 'views/main.html',
         controller: 'MainCtrl'
       })
-      .when('/ghana', {
-        templateUrl: 'views/ghana.html',
-        controller: 'GhanaCtrl'
-      })
-      .when('/india', {
-        templateUrl: 'views/india.html',
-        controller: 'IndiaCtrl'
-      })
-      .when('/tailandia', {
-        templateUrl: 'views/tailandia.html',
-        controller: 'TailandiaCtrl'
-      })
-      .when('/peru', {
-        templateUrl: 'views/peru.html',
-        controller: 'PeruCtrl'
-      })
-      .when('/faq', {
-        templateUrl: 'views/faq.html',
-        controller: 'MainCtrl'
-      })
-      .when('/premios', {
-        templateUrl: 'views/premios.html',
-        controller: 'MainCtrl'
-      })
-      .when('/apps4health', {
-        templateUrl: 'views/apps4health.html',
-        controller: 'MainCtrl'
-      })
-      .when('/hackathon', {
-        templateUrl: 'views/hackathon.html',
-        controller: 'MainCtrl'
-      })
-      .when('/listado', {
-        templateUrl: 'views/listado.html',
-        controller: 'ListadoCtrl'
-      })
-      .when('/applibre', {
-        templateUrl: 'views/applibre.html',
-        controller: 'ApplibreCtrl'
-      })
-      .when('/privacidad', {
-        templateUrl: 'views/privacidad.html',
-        controller: 'MainCtrl'
-      })
-      .when('/contacta', {
-        templateUrl: 'views/contacta.html',
+      .when('/nodos', {
+        templateUrl: 'views/nodos.html',
         controller: 'MainCtrl'
       })
       .otherwise({
         redirectTo: '/'
       });
+    $translateProvider.translations({
+      HEADLINE: 'Hello <a href="hool">there</a>, This is my awesome app!',
+      INTRO_TEXT: 'And it has i18n support!'
+    });
   });

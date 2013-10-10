@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('apps4healtApp')
+angular.module('bimeApp')
   .controller('MainCtrl', function ($scope, $location) {
   	
  	$scope.go = function (path) {

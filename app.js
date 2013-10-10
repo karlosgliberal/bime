@@ -8,7 +8,7 @@ var express = require('express'),
 
 var app = express();
 app.configure(function(){
-  app.set('port', process.env.PORT || 3000);
+  app.set('port', process.env.PORT || 7000);
   app.set('views', __dirname + '/views');
   app.set('view engine', 'ejs');
   app.use(express.favicon());
@@ -59,6 +59,6 @@ app.get('/', function(req, res){
 })
 
 
-app.listen(4000);
-console.log('Listening on port 4000');
+app.listen(7000);
+console.log('Listening on port 7000');
 
