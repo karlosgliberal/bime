@@ -59,7 +59,10 @@
     background: #0083B3; 
 }
 
-
+#menu-bime {
+  background-color: #16BBEC;
+  border-top: 8px solid #00A4C7;
+}
 
 #header {
 	height: 190px;

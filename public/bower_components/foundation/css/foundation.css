@@ -2809,11 +2809,11 @@ label.error {
 
 .top-bar {
   overflow: hidden;
-  height: 100px;
+  height: 40px;
   line-height: 100px;
   position: relative;
-  background: #111111;
-  margin-bottom: 1.875em; }
+  /*background: #111111;*/
+ /* margin-bottom: 1.875em;*/ }
   .top-bar ul {
     margin-bottom: 0;
     list-style: none; }
@@ -3007,7 +3007,7 @@ label.error {
 
 @media only screen and (min-width: 58.75em) {
   .top-bar {
-    background: #111111;
+   
     *zoom: 1;
     overflow: visible; }
     .top-bar:before, .top-bar:after {
@@ -3052,7 +3052,7 @@ label.error {
           display: none; }
     .top-bar-section li a:not(.button) {
       padding: 0 15px;
-      line-height: 100px;
+    /*  line-height: 100px;*/
       background: #111111; }
       .top-bar-section li a:not(.button).hover {
         background: blue; }
