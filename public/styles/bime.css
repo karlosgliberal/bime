@@ -85,6 +85,11 @@ h1 {
    font-size: 3em;
 }
 
+h2 {
+   font-family: "myriad-pro",sans-serif;
+   font-size: 2em;
+}
+
 h1.presentacion {
   color:#14B9EB;
   text-align: center;
@@ -96,6 +101,8 @@ h1.presentacion {
   background: url("/img/bg-bime.png") no-repeat;
   background-color: #F9F9F9;
   background-position: center;
+  padding-bottom: 32px;
+  padding-top: 37px;
 }
 
 #presentacion strong {
@@ -105,18 +112,51 @@ h1.presentacion {
 }
 
 p.sub-texto {
-  text-align: center;
-  font-size: 1.6em;
-  color: #8C8C8C;
+    color: #8C8C8C;
+    font-size: 1.6em;
+    margin-bottom: 1em;
+    text-align: center;
 }
 
 .presentacion-texto {
   background-color: #fff;
-  padding: 10px 20px;
+  padding: 30px 20px 10px;
+
 }
+
 .presentacion-texto p {
   line-height: 2.2em;
 }
 
+p.rigth {
+  text-align: right;
+  margin: 0;
+}
 
+#actividades {
+  background: url("/img/bg-actividades.jpg");
+  background-size: cover;
+}
+
+h1.actividades {
+    color: #FFFFFF;
+    font-size: 3em;
+    font-weight: bold;
+    margin-top: 115px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#actividades h2 {
+    border-bottom: 1px solid;
+    color: #A0A0A0;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.actividad {
+  background-color: #fff;
+  margin: 0 19px;
+}
 
