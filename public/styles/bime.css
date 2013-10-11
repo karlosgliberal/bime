@@ -65,7 +65,7 @@
 }
 
 #header {
-	height: 190px;
+	height: 175px;
 	background-color: #fff;
 }
 
@@ -79,8 +79,44 @@
 }
 
 
+
 h1 {
-    font-family: "proxima-nova",sans-serif;
-   font-size: 20px;
+   font-family: "myriad-pro",sans-serif;
+   font-size: 3em;
 }
+
+h1.presentacion {
+  color:#14B9EB;
+  text-align: center;
+  font-size: 2em;
+}
+
+
+#presentacion {
+  background: url("/img/bg-bime.png") no-repeat;
+  background-color: #F9F9F9;
+  background-position: center;
+}
+
+#presentacion strong {
+  color: #00B8EC;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
+p.sub-texto {
+  text-align: center;
+  font-size: 1.6em;
+  color: #8C8C8C;
+}
+
+.presentacion-texto {
+  background-color: #fff;
+  padding: 10px 20px;
+}
+.presentacion-texto p {
+  line-height: 2.2em;
+}
+
+
 
