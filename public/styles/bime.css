@@ -73,4 +73,9 @@
   text-align: right;
 }
 
+#header {
+   font-family: "proxima-nova",sans-serif;
+   font-size: 10px;
+}
+
 

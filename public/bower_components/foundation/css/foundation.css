@@ -2903,7 +2903,7 @@ label.error {
     width: 100%;
     height: auto;
     display: block;
-    background: #222222;
+   /* background: #222222;*/
     font-size: 16;
     margin: 0; }
   .top-bar-section .divider,
@@ -3051,9 +3051,9 @@ label.error {
         .top-bar-section ul li .js-generated {
           display: none; }
     .top-bar-section li a:not(.button) {
-      padding: 0 15px;
+      padding: 0 10px;
     /*  line-height: 100px;*/
-      background: #111111; }
+    /*  background: #111111;*/ }
       .top-bar-section li a:not(.button).hover {
         background: blue; }
     .top-bar-section .has-dropdown > a {
