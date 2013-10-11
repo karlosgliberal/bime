@@ -56,7 +56,7 @@
 }
 
 .top-bar-section ul li > a:hover {
-    background: #0083B3; 
+    background: #00A4C7; 
 }
 
 #menu-bime {
@@ -73,9 +73,14 @@
   text-align: right;
 }
 
-#header {
+.top-bar-section ul li > a {
    font-family: "proxima-nova",sans-serif;
-   font-size: 10px;
+   font-size: 19px;
 }
 
+
+h1 {
+    font-family: "proxima-nova",sans-serif;
+   font-size: 20px;
+}
 

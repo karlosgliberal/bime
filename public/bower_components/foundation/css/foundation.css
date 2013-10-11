@@ -2921,10 +2921,6 @@ label.error {
     padding-left: 15px;
     font-size: 1em;
    /* background: #222222; */
-    background: url("../img/bg-central.png") repeat scroll 0 0 transparent;
-    text-transform: uppercase;
-    font-family: "league-gothic",serif;
-    letter-spacing: 0.11em;
   }
     .top-bar-section ul li > a.button {
       background: #2ba6cb;
@@ -3051,7 +3047,7 @@ label.error {
         .top-bar-section ul li .js-generated {
           display: none; }
     .top-bar-section li a:not(.button) {
-      padding: 0 10px;
+      padding: 6px 18px;
     /*  line-height: 100px;*/
     /*  background: #111111;*/ }
       .top-bar-section li a:not(.button).hover {
