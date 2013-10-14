@@ -148,15 +148,37 @@ h1.actividades {
 }
 
 #actividades h2 {
-    border-bottom: 1px solid;
+    border-bottom: 1px solid #DDDDDD;
     color: #A0A0A0;
     font-weight: bold;
     text-align: center;
     text-transform: uppercase;
+    padding: 17px 0;
+    font-size: 1.8em;
 }
 
-.actividad {
+.actividad-wrapper {
   background-color: #fff;
   margin: 0 19px;
 }
 
+#actividades p {
+   font-size: 0.9em;
+    line-height: 2em;
+    padding: 0 43px;
+    text-align: center;
+}
+
+.btn-info {
+    margin: 100px 0;
+    padding-bottom: 61px;
+    text-align: center;
+}
+
+.btn-info a {
+  padding: 9px 30px;
+  color: #fff;
+  text-transform: uppercase;
+  background-color: #00B9DD;
+  font-size: 20px;
+}
