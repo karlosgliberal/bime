@@ -5,7 +5,8 @@ angular.module('footer', [])
     return {
       restrict: 'A',
       replace: false,
-      templateUrl: "views/footer.html"
+      templateUrl: "views/footer.html",
+      controller: 'MainCtrl'
     };
     // return the directive link function. (compile function not needed)
   });

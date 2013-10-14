@@ -8,5 +8,6 @@ angular.module('bimeApp')
  	$scope.go = function (path) {
      	$location.path(path);
   	}
+  	$scope.movida = 'hola movida';
    
 });

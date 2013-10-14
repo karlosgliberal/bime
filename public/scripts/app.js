@@ -1,35 +1,116 @@
 /*global angular*/
 'use strict';
 
-angular.module('bimeApp', ['ngGrid', 'cabecera', 'footer', 'footerInscribir', 'EnvioCorreoService', 'pascalprecht.translate'])
+var traduccionesEs = {
+  HEADLINE: '<b>hola<b>',
+  VER_MAS: 'VER MÁS',
+  MAS_INFORMACION: 'Más informacion',
+  INSCRIBETE: 'Inscríbete',
+  MENU: {
+    INICIO: 'Inicio',
+    NODOS: 'Nodos',
+    QUE_ES: '¿Que es?',
+    BIME: 'Bime',
+    HORARIOS: 'Horarios',
+    DONDE: 'Donde',
+    PREMIOS: 'Premios',
+    COMUNIDAD: 'Comunidad',
+    FAQ: 'FAQ'
+  },
+  PRESENTACION:{
+    TITULO: '¿Que es Bime hack a Day?',
+    SUBTEXTO: 'Es el mayor encuentro­ conference del estado. Especialmente creado para fomentar la <strong>CREATIVIDAD</strong> y la invención reúne a amantes y profesionales de la Música y la Tecnología, <strong>MAKERS</strong> y <strong>HACKERS</strong>.',
+    TEXTO: 'Participarán durante dos días en diferentes actividades abiertas como concursos, charlas y talleres y un hackx24 (hackaton de 24h), todo ello relacionado con la industria musical. Los asistentes poseen la oportunidad única de testear las últimas novedades del mercado así como contactar profesionalmente con grandes empresas, mostrar sus trabajos a públicos especializados y generar comunidad, Una intensa jornada de 36h donde se genera el futuro de la música, pero sobretodo donde se aprende y se comparte.'
+  },
+  ACTIVIDADES:{
+    TITULO: 'Actividades',
+    SUBTITULO_24: 'Hack x 24',
+    TEXTO_24: 'Haz de tu sueño una realidad junto a tu equipo y tus empresas preferidas. Tienes 24 horas, las mejores aplicaciones serán premiadas. Las zonas de acción están divididas por <a href="/">NODOS</a>.  Sólo 100 puestos de trabajo, ¿Te vas a quedar sin el tuyo?',
+    SUBTITULO_CHARLAS: 'Charlas y Workshops',
+    TEXTO_CHARLAS: 'Descubre y prueba nuevas tecnologías y técnicas de la mano de grandes profesionales. Tendrás acceso a todas estas experiencias, participa!!. El aforo es limitado así que rellena el “formulario de inscripción”  y apúntate a las que desees asistir!',
+    SOLO: 'Sólo 100 puestos de trabajo, ¿Te vas a quedar sin el tuyo?'
+  },
+  PREMIOS:{
+    TITULO: 'Premios'
+  },
+  PATROCINADORES:{
+    TITULO: 'Patrocinadores'
+  },
+  PIE:{
+    TITULO:'Sigue Bime Hack Day' 
+  }
+}
+
+var traduccionesEu = {
+  HEADLINE: 'Kaixo',
+  VER_MAS: 'IKUSI GEIAGO',
+  MAS_INFORMACION: 'Informazio geiago',
+  MENU: {
+    INICIO: 'Hasiera',
+    NODOS: 'Nodoak',
+    QUE_ES: 'Zer da?',
+    BIME: 'Bime',
+    HORARIOS: 'Ordutegia',
+    DONDE: 'Non',
+    PREMIOS: 'Sariak',
+    COMUNIDAD: 'Komunitatea',
+    FAQ: 'FAQ'
+  },
+  PRESENTACION:{
+    TITULO: 'EU ¿Que es Bime hack a Day?',
+    SUBTEXTO: 'EU Es el mayor encuentro­ conference del estado. Especialmente creado para fomentar la <strong>CREATIVIDAD</strong> y la invención reúne a amantes y profesionales de la Música y la Tecnología, <strong>MAKERS</strong> y <strong>HACKERS</strong>.',
+    TEXTO: 'EU Participarán durante dos días en diferentes actividades abiertas como concursos, charlas y talleres y un hackx24 (hackaton de 24h), todo ello relacionado con la industria musical. Los asistentes poseen la oportunidad única de testear las últimas novedades del mercado así como contactar profesionalmente con grandes empresas, mostrar sus trabajos a públicos especializados y generar comunidad, Una intensa jornada de 36h donde se genera el futuro de la música, pero sobretodo donde se aprende y se comparte.'
+  },
+  PIE:{
+    TITULO:'Sigue Bime Hack Day' 
+  }
+}
+
+angular.module('bimeApp', ['ngGrid', 'cabecera', 'footer', 'footerInscribir', 'EnvioCorreoService', 'pascalprecht.translate', 'ngCookies'])
   .config(function ($routeProvider, $translateProvider) {
     $routeProvider
       .when('/', {
         templateUrl: 'views/main.html',
         controller: 'MainCtrl'
       })
+      .when('/que-es', {
+        templateUrl: 'views/que-es.html',
+        controller: 'MainCtrl'
+      })
+      .when('/bime', {
+        templateUrl: 'views/bime.html',
+        controller: 'MainCtrl'
+      })
+      .when('/horarios', {
+        templateUrl: 'views/horarios.html',
+        controller: 'MainCtrl'
+      })
       .when('/nodos', {
         templateUrl: 'views/nodos.html',
+        controller: 'MainCtrl'
+      })
+      .when('/donde', {
+        templateUrl: 'views/donde.html',
+        controller: 'MainCtrl'
+      })
+      .when('/premios', {
+        templateUrl: 'views/premios.html',
+        controller: 'MainCtrl'
+      })
+      .when('/comunidad', {
+        templateUrl: 'views/comunidad.html',
+        controller: 'MainCtrl'
+      })
+      .when('/faq', {
+        templateUrl: 'views/faq.html',
         controller: 'MainCtrl'
       })
       .otherwise({
         redirectTo: '/'
       });
  
-    $translateProvider.translations('es',{
-      HEADLINE: 'hola',
-      BUTTON_TEXT_ES: 'Booton ESPAÑOL',
-      CABECERA: 'Soy la cabera',
-      FOOTER: 'Soy la footer',
-      FOOTER_INSCRIBIR: 'Footer inscribir'
-    })
-    .translations('eu',{
-      HEADLINE: 'Kaixo',
-      BUTTON_TEXT_EU: 'Boton AIAIAIAI',
-      CABECERA: 'AITOR BURUAUNDI',
-      FOOTER: 'FOOTER naiz 4/4 arrolla',
-      FOOTER_INSCRIBIR: 'Ni naiz footer inscribier in EUKARO'
-    });
-
+    $translateProvider.translations('es', traduccionesEs)
+    $translateProvider.translations('eu', traduccionesEu)
     $translateProvider.preferredLanguage('es');
+    $translateProvider.useCookieStorage();
   });

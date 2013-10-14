@@ -5,7 +5,8 @@ angular.module('cabecera', [])
     return {
       restrict: 'A',
       replace: false,
-      templateUrl: "views/cabecera.html"
+      templateUrl: "views/cabecera.html",
+      controller: 'MainCtrl'
     };
     // return the directive link function. (compile function not needed)
   });
