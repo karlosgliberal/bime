@@ -145,7 +145,13 @@ h1.actividades {
     margin-top: 115px;
     text-align: center;
     text-transform: uppercase;
+/*    background: url("/img/linea.png") no-repeat, url("/img/linea.png") no-repeat;
+    background-position: 10% 10%, 10% 10%;*/
+background: url("/img/linea.png") no-repeat scroll 15% 53%, url("/img/linea.png") no-repeat scroll 84% 49% rgba(0, 0, 0, 0);
+
 }
+
+
 
 #actividades h2 {
     border-bottom: 1px solid #DDDDDD;
@@ -183,6 +189,14 @@ h1.actividades {
   font-size: 20px;
 }
 
+.btn-info a:hover {
+  opacity: 0.7
+}
+
+.puestos-inscripcion a:hover {
+  border: 4px solid #14B9EB;
+}
+
 .puestos {
 text-align: center;
 color:#fff;
@@ -210,9 +224,6 @@ margin-top: 81px;
   font-size: 25px;
 }
 
-.linea {
-  border-top: 1px solid #B0B0B0;
-}
 
 #premios {
 background-color: #F4F4F4; 
@@ -298,3 +309,9 @@ display: inline;
   text-align: center;
   padding: 19px 0;
 }
+/*.linea {
+    border-top: 3px solid #E5E5E5;
+    margin: 0 75px;
+    position: relative;
+    top: -55px;
+}*/
