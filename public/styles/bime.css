@@ -258,3 +258,43 @@ p.texto-pre {
 #premios .columns {
     margin: 15px 0;
 }
+
+
+h1.footer {
+   color: #fff;
+    font-size: 2em;
+    text-align: center;
+}
+
+h1.patrocinadores {
+    color: #BBBBBB;
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 1.3em;
+
+}
+
+#patrocinadores {
+  border-top: 2px solid #E8E8E8;
+  padding-bottom: 60px;
+  padding-top: 30px;
+}
+
+
+#footer {
+  background-color: #00B8ED;
+}
+
+.redes li { 
+padding: 0 18px;
+display: inline;
+}
+
+.redes {
+
+}
+
+#footer {
+  text-align: center;
+  padding: 19px 0;
+}
