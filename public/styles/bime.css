@@ -31,7 +31,7 @@
 
 #ng-view {
   position:relative;
-  min-height:700px;
+/*  min-height:700px;*/
 }
 
 .fade-hide, .fade-show{
@@ -93,17 +93,14 @@ font-weight: 500;
 
 
 h1 {
-   font-family: "myriad-pro",sans-serif;
    font-size: 3em;
 }
 
 h2 {
-   font-family: "myriad-pro",sans-serif;
    font-size: 2em;
 }
 
 h1.presentacion {
-  color:#14B9EB;
   text-align: center;
   font-size: 2em;
 
@@ -261,7 +258,7 @@ p.texto-pre {
     margin: 22px 10px;
 }
 
-#premios strong {
+#premios strong, #seccion-interior strong {
   color: #00B8DE;
 }
 
@@ -327,14 +324,12 @@ h1.actividades {
     margin-top: 115px;
     text-align: center;
     text-transform: uppercase;
-background: url("/img/linea.png") no-repeat scroll 15% 53%, url("/img/linea.png") no-repeat scroll 84% 49% rgba(0, 0, 0, 0);
-
+    background: url("/img/linea.png") no-repeat scroll 15% 53%, url("/img/linea.png") no-repeat scroll 84% 49% rgba(0, 0, 0, 0);
 }
 
 
 h1.seccion {
     background-color: #F4F4F4;
-    color: #14B9EB;
     display: inline-block;
     font-size: 2em;
     padding: 0 26px;
@@ -342,3 +337,100 @@ h1.seccion {
     text-align: center;
     top: -33px;
 }
+
+h1.page {
+     font-size: 2.3em;
+}
+
+h1.sub-footer {
+    color: #fff;
+    font-size: 2.2em;
+    text-align: center;
+    margin: 1.3em 0;
+
+}
+
+#seccion-interior {
+   background: url("/img/bg-interior.png") no-repeat scroll center center #F4F4F4;
+    min-height: 600px;
+    padding-bottom: 70px;
+}
+
+.contenido {
+  background-color: #fff;
+  padding: 25px;
+}
+
+.bread {
+  padding-top: 10px;
+}
+
+#sub-inscripcion {
+    background: url("/img/bg-sub.jpg") repeat scroll 0 0 / cover rgba(0, 0, 0, 0);
+    padding-bottom: 60px;
+}
+
+.inscripcion-wrapper {
+  background-color: #fff;
+  padding: 25px 35px 30px 25px;
+}
+
+
+.btn-ins {
+  text-align: right;
+}
+
+
+.btn-ins a {
+    background-color: #00B9DD;
+    color: #FFFFFF;
+    font-size: 20px;
+    padding: 9px 60px;
+    text-transform: uppercase;
+}
+
+
+.btn-ins a:hover
+ {
+   opacity:0.8;
+}
+
+h3.sub {
+  color: #858585;
+}
+
+#sub-inscripcion p {
+line-height: 0.7em;
+padding-left: 5px;
+}
+
+
+.pro {
+ 
+  color: #7DA028;
+ 
+}
+
+.live {
+  
+ color: #C12C25;
+ margin-top: 60px;
+}
+
+.market {
+ 
+  color: #C37801;
+ 
+    margin-top: 60px;
+}
+
+.city {
+ 
+  color: #63A896;
+
+    margin-top: 60px;
+}
+
+
+
+
