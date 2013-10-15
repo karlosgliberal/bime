@@ -31,7 +31,7 @@
 
 #ng-view {
   position:relative;
-  min-height:700px;
+/*  min-height:700px;*/
 }
 
 .fade-hide, .fade-show{
@@ -345,6 +345,7 @@ h1.page {
 #seccion-interior {
    background: url("/img/bg-interior.png") no-repeat scroll center center #F4F4F4;
     min-height: 600px;
+    padding-bottom: 70px;
 }
 
 .contenido {
