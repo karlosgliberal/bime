@@ -8,6 +8,7 @@ angular.module('bimeApp')
  	$scope.go = function (path) {
      	$location.path(path);
   	}
-  	$scope.movida = 'hola movida';
+  	$scope.img_translate = $translate('IMG_CABECERA');
+  	$scope.img = $scope.img_translate;
    
 });
