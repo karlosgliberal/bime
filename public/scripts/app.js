@@ -6,6 +6,7 @@ var traduccionesEs = {
   VER_MAS: 'VER MÁS',
   MAS_INFORMACION: 'Más informacion',
   INSCRIBETE: 'Inscríbete',
+  IMG_CABECERA: '/img/banner.png',
   MENU: {
     INICIO: 'Inicio',
     NODOS: 'Nodos',
@@ -45,6 +46,7 @@ var traduccionesEu = {
   HEADLINE: 'Kaixo',
   VER_MAS: 'IKUSI GEIAGO',
   MAS_INFORMACION: 'Informazio geiago',
+  IMG_CABECERA: '/img/banner.png',
   MENU: {
     INICIO: 'Hasiera',
     NODOS: 'Nodoak',
