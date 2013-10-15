@@ -71,7 +71,19 @@
 
 .idiomas {
   text-align: right;
+  padding-top: 5px;
+  font-size: 17px;
 }
+
+.idiomas a {
+color: #15BAEB;
+font-weight: 500;
+}
+
+.idiomas a:hover {
+  text-decoration: underline;
+}
+
 
 .top-bar-section ul li > a {
    font-family: "proxima-nova",sans-serif;
