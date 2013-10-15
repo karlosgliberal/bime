@@ -46,7 +46,7 @@ var traduccionesEu = {
   HEADLINE: 'Kaixo',
   VER_MAS: 'IKUSI GEIAGO',
   MAS_INFORMACION: 'Informazio geiago',
-  IMG_CABECERA: '/img/banner.png',
+  IMG_CABECERA: '/img/banner-eu.png',
   MENU: {
     INICIO: 'Hasiera',
     NODOS: 'Nodoak',
