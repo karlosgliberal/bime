@@ -389,7 +389,6 @@ h1.sub-footer {
     text-transform: uppercase;
 }
 
-
 .btn-ins a:hover
  {
    opacity:0.8;
@@ -406,9 +405,7 @@ padding-left: 5px;
 
 
 .pro {
- 
   color: #7DA028;
- 
 }
 
 .live {
@@ -420,15 +417,17 @@ padding-left: 5px;
 .market {
  
   color: #C37801;
- 
-    margin-top: 60px;
+  margin-top: 60px;
 }
 
 .city {
  
   color: #63A896;
+  margin-top: 60px;
+}
 
-    margin-top: 60px;
+.contenido img {
+  margin-bottom: 20px;
 }
 
 
