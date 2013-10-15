@@ -65,7 +65,7 @@
 }
 
 #header {
-	height: 175px;
+  padding-bottom: 18px;
 	background-color: #fff;
 }
 
@@ -106,6 +106,7 @@ h1.presentacion {
   color:#14B9EB;
   text-align: center;
   font-size: 2em;
+
 }
 
 
@@ -149,20 +150,6 @@ p.rigth {
   background: url("/img/bg-actividades.jpg");
   background-size: cover;
 }
-
-h1.actividades {
-    color: #FFFFFF;
-    font-size: 3em;
-    font-weight: bold;
-    margin-top: 115px;
-    text-align: center;
-    text-transform: uppercase;
-/*    background: url("/img/linea.png") no-repeat, url("/img/linea.png") no-repeat;
-    background-position: 10% 10%, 10% 10%;*/
-background: url("/img/linea.png") no-repeat scroll 15% 53%, url("/img/linea.png") no-repeat scroll 84% 49% rgba(0, 0, 0, 0);
-
-}
-
 
 
 #actividades h2 {
@@ -321,9 +308,37 @@ display: inline;
   text-align: center;
   padding: 19px 0;
 }
-/*.linea {
-    border-top: 3px solid #E5E5E5;
-    margin: 0 75px;
+
+
+.header-seccion {
+border-top: 4px solid #E5E5E5;
+text-align: center;
+margin: 0 50px;
+position: relative;
+top: 29px;
+
+}
+
+
+h1.actividades {
+    color: #FFFFFF;
+    font-size: 3em;
+    font-weight: bold;
+    margin-top: 115px;
+    text-align: center;
+    text-transform: uppercase;
+background: url("/img/linea.png") no-repeat scroll 15% 53%, url("/img/linea.png") no-repeat scroll 84% 49% rgba(0, 0, 0, 0);
+
+}
+
+
+h1.seccion {
+    background-color: #F4F4F4;
+    color: #14B9EB;
+    display: inline-block;
+    font-size: 2em;
+    padding: 0 26px;
     position: relative;
-    top: -55px;
-}*/
+    text-align: center;
+    top: -33px;
+}
