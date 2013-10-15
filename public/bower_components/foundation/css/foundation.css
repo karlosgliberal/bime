@@ -1061,10 +1061,10 @@ p {
 
 /* Default header styles */
 h1, h2, h3, h4, h5, h6 {
-  font-family: "league-gothic",sans-serif;
+  font-family: "myriad-pro",sans-serif;
   font-style: normal;
   font-weight: 400;
-  color: #222222;
+  color: #14B9EB;
   text-rendering: optimizeLegibility;
   margin-top: 0.2em;
   margin-bottom: 0.5em;

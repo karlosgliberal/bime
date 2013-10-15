@@ -93,17 +93,14 @@ font-weight: 500;
 
 
 h1 {
-   font-family: "myriad-pro",sans-serif;
    font-size: 3em;
 }
 
 h2 {
-   font-family: "myriad-pro",sans-serif;
    font-size: 2em;
 }
 
 h1.presentacion {
-  color:#14B9EB;
   text-align: center;
   font-size: 2em;
 
@@ -261,7 +258,7 @@ p.texto-pre {
     margin: 22px 10px;
 }
 
-#premios strong {
+#premios strong, #seccion-interior strong {
   color: #00B8DE;
 }
 
@@ -327,14 +324,12 @@ h1.actividades {
     margin-top: 115px;
     text-align: center;
     text-transform: uppercase;
-background: url("/img/linea.png") no-repeat scroll 15% 53%, url("/img/linea.png") no-repeat scroll 84% 49% rgba(0, 0, 0, 0);
-
+    background: url("/img/linea.png") no-repeat scroll 15% 53%, url("/img/linea.png") no-repeat scroll 84% 49% rgba(0, 0, 0, 0);
 }
 
 
 h1.seccion {
     background-color: #F4F4F4;
-    color: #14B9EB;
     display: inline-block;
     font-size: 2em;
     padding: 0 26px;
@@ -342,3 +337,22 @@ h1.seccion {
     text-align: center;
     top: -33px;
 }
+
+h1.page {
+     font-size: 2.3em;
+}
+
+#seccion-interior {
+   background: url("/img/bg-interior.png") no-repeat scroll center center #F4F4F4;
+    min-height: 600px;
+}
+
+.contenido {
+  background-color: #fff;
+  padding: 25px;
+}
+
+.bread {
+  padding-top: 10px;
+}
+
