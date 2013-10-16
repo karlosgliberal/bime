@@ -486,8 +486,16 @@ padding-left: 5px;
 
 }
 
-.mutavault {
+#patrocinadores {
+  text-align: center;
+}
 
+#patrocinadores h4 {
+  color: #bbbbbb;
+}
+
+#patrocinadores img {
+  margin: 10px 0px;
 }
 
 .over {
