@@ -255,7 +255,7 @@ p.texto-pre {
     font-size: 1.3em;
     font-weight: 300;
     line-height: 27px;
-    margin: 22px 15px;
+    margin: 22px 13px;
 }
 
 #premios strong, #seccion-interior strong {
@@ -340,6 +340,7 @@ h1.seccion {
     position: relative;
     text-align: center;
     top: -33px;
+    color: #BBBBBB;
 }
 
 h1.page {
@@ -433,7 +434,7 @@ padding-left: 5px;
 
 
 .destacado {
-   font-size: 3em;
+   font-size: 2.6em;
     font-weight: bold;
     line-height: 1em;
     text-align: center;
@@ -441,7 +442,7 @@ padding-left: 5px;
 
 
 .solo {
-  height: 315px;
+  height: 238px;
 }
 
 
@@ -450,4 +451,10 @@ padding-left: 5px;
 }
 #header img {
   max-width: 110%;
+}
+
+.sub-destacado {
+     font-size: 1.7em;
+    line-height: 1em;
+    text-align: center;
 }
