@@ -91,6 +91,10 @@ angular.module('bimeApp', ['ngGrid', 'cabecera', 'footer', 'footerInscribir', 'E
         templateUrl: 'views/premios.html',
         controller: 'MainCtrl'
       })
+      .when('/hackx24', {
+        templateUrl: 'views/hackx24.html',
+        controller: 'MainCtrl'
+      })
       .when('/comunidad', {
         templateUrl: 'views/comunidad.html',
         controller: 'MainCtrl'
