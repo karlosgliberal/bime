@@ -103,7 +103,7 @@ angular.module('bimeApp', ['ngGrid', 'cabecera', 'footer', 'footerInscribir', 'E
         templateUrl: 'views/comunidad.html',
         controller: 'MainCtrl'
       })
-        .when('/charlas', {
+      .when('/charlas', {
         templateUrl: 'views/charlas.html',
         controller: 'MainCtrl'
       })
