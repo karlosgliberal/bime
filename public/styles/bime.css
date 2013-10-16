@@ -444,3 +444,10 @@ padding-left: 5px;
   height: 315px;
 }
 
+
+#header {
+  text-align: center;
+}
+#header img {
+  max-width: 110%;
+}
