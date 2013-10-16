@@ -25,11 +25,11 @@ var traduccionesEs = {
   },
   ACTIVIDADES:{
     TITULO: 'Actividades',
-    SUBTITULO_24: 'Hack x 24',
+    SUBTITULO_24: 'Hackathon <br> Hack x 24',
     TEXTO_24: 'Haz de tu sueño una realidad junto a tu equipo y tus empresas preferidas. Tienes 24 horas, las mejores aplicaciones serán premiadas. Las zonas de acción están divididas por <a href="/">NODOS</a>.  Sólo 100 puestos de trabajo, ¿Te vas a quedar sin el tuyo?',
     SUBTITULO_CHARLAS: 'Conferencias y Workshops',
     TEXTO_CHARLAS: 'Descubre y prueba nuevas tecnologías y técnicas de la mano de grandes profesionales. Tendrás acceso a todas estas experiencias, participa!!. El aforo es limitado así que rellena el “formulario de inscripción”  y apúntate a las que desees asistir!',
-    SOLO: '¿100 puestos de trabajo, ¿Te vas a quedar sin el tuyo?'
+    SOLO: '100 puestos de trabajo, ¿Te vas a quedar sin el tuyo?'
   },
   PREMIOS:{
     TITULO: 'Premios'
