@@ -413,19 +413,16 @@ padding-left: 5px;
 }
 
 .live {
-  
  color: #C12C25;
  margin-top: 60px;
 }
 
 .market {
- 
   color: #C37801;
   margin-top: 60px;
 }
 
 .city {
- 
   color: #63A896;
   margin-top: 60px;
 }
@@ -433,4 +430,6 @@ padding-left: 5px;
 .contenido img {
   margin-bottom: 20px;
 }
+
+
 
