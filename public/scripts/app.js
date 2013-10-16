@@ -87,14 +87,6 @@ angular.module('bimeApp', ['ngGrid', 'cabecera', 'footer', 'footerInscribir', 'E
         templateUrl: 'views/horarios.html',
         controller: 'MainCtrl'
       })
-      .when('/nodos', {
-        templateUrl: 'views/nodos.html',
-        controller: 'MainCtrl'
-      })
-      .when('/donde', {
-        templateUrl: 'views/donde.html',
-        controller: 'MainCtrl'
-      })
       .when('/premios', {
         templateUrl: 'views/premios.html',
         controller: 'MainCtrl'
@@ -103,12 +95,12 @@ angular.module('bimeApp', ['ngGrid', 'cabecera', 'footer', 'footerInscribir', 'E
         templateUrl: 'views/comunidad.html',
         controller: 'MainCtrl'
       })
-      .when('/charlas', {
-        templateUrl: 'views/charlas.html',
+      .when('/conferencias', {
+        templateUrl: 'views/conferencias.html',
         controller: 'MainCtrl'
       })
-      .when('/faq', {
-        templateUrl: 'views/faq.html',
+      .when('/info', {
+        templateUrl: 'views/info.html',
         controller: 'MainCtrl'
       })
       .otherwise({
