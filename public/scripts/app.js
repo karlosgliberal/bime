@@ -9,14 +9,14 @@ var traduccionesEs = {
   IMG_CABECERA: '/img/banner.png',
   MENU: {
     INICIO: 'Inicio',
-    NODOS: 'Nodos',
+    HACK: 'Hack x 24',
     QUE_ES: '¿Que es?',
     BIME: 'Bime',
     HORARIOS: 'Horarios',
-    DONDE: 'Donde',
+    CONFERENCIAS: 'Conferencias',
     PREMIOS: 'Premios',
     COMUNIDAD: 'Comunidad',
-    FAQ: 'FAQ'
+    INFO: '+ Info'
   },
   PRESENTACION:{
     TITULO: '¿Que es Bime hack a Day?',
