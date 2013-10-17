@@ -538,3 +538,12 @@ h4.patrocinios {
    color: #BBBBBB;
    text-align: center;
 }
+
+#premios-seccion {
+    background-color: #fff;
+    padding-bottom: 55px;
+    padding-top: 40px;
+}
+#premios-seccion .premio-item {
+  border: 1px solid #00C6FF;
+}

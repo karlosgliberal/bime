@@ -18,11 +18,13 @@ var traduccionesEs = {
     COMUNIDAD: 'Comunidad',
     INFO: '+ Info'
   },
+  
   PRESENTACION:{
-    TITULO: '¿Que es BIME hack a Day?',
+    TITULO: '¿Que es BIME Hack a Day?',
     SUBTEXTO: 'Es el mayor encuentro­ conference del estado. Especialmente creado para fomentar la <strong>CREATIVIDAD</strong> y la invención reúne a amantes y profesionales de la Música y la Tecnología, <strong>MAKERS</strong> y <strong>HACKERS</strong>.',
     TEXTO: 'Participarán durante dos días en diferentes actividades abiertas como concursos, charlas y talleres y un hackx24 (hackaton de 24h), todo ello relacionado con la industria musical. Los asistentes poseen la oportunidad única de testear las últimas novedades del mercado así como contactar profesionalmente con grandes empresas, mostrar sus trabajos a públicos especializados y generar comunidad, Una intensa jornada de 36h donde se genera el futuro de la música, pero sobretodo donde se aprende y se comparte.'
   },
+
   ACTIVIDADES:{
     TITULO: 'Actividades',
     SUBTITULO_24: 'Hackathon <br> Hack x 24',
