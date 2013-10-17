@@ -110,8 +110,10 @@ h1.presentacion {
 #presentacion {
   background: url("/img/bg-bime.png") no-repeat;
   background-color: #F9F9F9;
-  background-position: center;
-  padding-bottom: 32px;
+  background-position: top;
+
+
+  padding-bottom: 85px;
   padding-top: 37px;
 }
 
@@ -123,7 +125,7 @@ h1.presentacion {
 
 p.sub-texto {
     color: #8C8C8C;
-    font-size: 1.6em;
+    font-size: 1.8em;
     margin-bottom: 1em;
     text-align: center;
 }
@@ -255,7 +257,7 @@ p.texto-pre {
     font-size: 1.3em;
     font-weight: 300;
     line-height: 27px;
-    margin: 22px 15px;
+    margin: 22px 13px;
 }
 
 #premios strong, #seccion-interior strong {
@@ -340,6 +342,7 @@ h1.seccion {
     position: relative;
     text-align: center;
     top: -33px;
+    color: #BBBBBB;
 }
 
 h1.page {
@@ -413,19 +416,16 @@ padding-left: 5px;
 }
 
 .live {
-  
  color: #C12C25;
  margin-top: 60px;
 }
 
 .market {
- 
   color: #C37801;
   margin-top: 60px;
 }
 
 .city {
- 
   color: #63A896;
   margin-top: 60px;
 }
@@ -434,3 +434,116 @@ padding-left: 5px;
   margin-bottom: 20px;
 }
 
+
+.destacado {
+   font-size: 2.6em;
+    font-weight: bold;
+    line-height: 1em;
+    text-align: center;
+}
+
+
+.solo {
+  height: 238px;
+}
+
+.solo img {
+  padding-top: 18px;
+}
+
+
+#header {
+  text-align: center;
+}
+#header img {
+  max-width: 110%;
+}
+
+.sub-destacado {
+     font-size: 1.7em;
+    line-height: 1em;
+    text-align: center;
+}
+
+.pro-w {
+  background: url("/img/pro.jpg") no-repeat;
+  background-color: #000;
+  min-height: 260px;
+  background-size: cover;
+  margin: 20px 0;
+}
+
+.live-w {
+  background: url("/img/live.jpg") no-repeat;
+  background-color: #000;
+  min-height: 260px;
+  background-size: cover;
+  margin: 20px 0;
+}
+
+
+
+.market-w {
+  background: url("/img/market.jpg") no-repeat;
+  background-color: #000;
+  min-height: 260px;
+  background-size: cover;
+  margin: 20px 0;
+}
+
+.city-w {
+  background: url("/img/city.jpg") no-repeat;
+  background-color: #000;
+  min-height: 260px;
+  background-size: cover;
+  margin: 20px 0;
+}
+
+.texto-bime {
+  color: #fff;
+}
+
+.texto-bime-wrapper {
+    background-color: #000000;
+  font-size: 0.831em;
+    min-height: 260px;
+    opacity: 0.7;
+    padding: 15px;
+
+}
+
+#patrocinadores {
+  text-align: center;
+}
+
+#patrocinadores h4 {
+  color: #bbbbbb;
+}
+
+#patrocinadores img {
+  margin: 10px 0px;
+}
+
+.over {
+      padding-left: 0.2em;
+    padding-right: 0.2em;
+}
+
+#presentacion a:hover, .presentacion-texto a:hover {
+  opacity: 0.6
+}
+
+
+h4.patrocinios {
+   color: #BBBBBB;
+   text-align: center;
+}
+
+#premios-seccion {
+    background-color: #fff;
+    padding-bottom: 55px;
+    padding-top: 40px;
+}
+#premios-seccion .premio-item {
+  border: 1px solid #00C6FF;
+}
