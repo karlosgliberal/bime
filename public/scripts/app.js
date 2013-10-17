@@ -11,7 +11,7 @@ var traduccionesEs = {
     INICIO: 'Inicio',
     HACK: 'Hack x 24',
     QUE_ES: '¿Que es?',
-    BIME: 'Bime',
+    BIME: 'BIME',
     HORARIOS: 'Horarios',
     CONFERENCIAS: 'Conferencias',
     PREMIOS: 'Premios',
