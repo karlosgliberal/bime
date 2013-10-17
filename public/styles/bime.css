@@ -110,8 +110,10 @@ h1.presentacion {
 #presentacion {
   background: url("/img/bg-bime.png") no-repeat;
   background-color: #F9F9F9;
-  background-position: center;
-  padding-bottom: 32px;
+  background-position: top;
+
+
+  padding-bottom: 85px;
   padding-top: 37px;
 }
 
@@ -123,7 +125,7 @@ h1.presentacion {
 
 p.sub-texto {
     color: #8C8C8C;
-    font-size: 1.6em;
+    font-size: 1.8em;
     margin-bottom: 1em;
     text-align: center;
 }
@@ -529,4 +531,10 @@ padding-left: 5px;
 
 #presentacion a:hover, .presentacion-texto a:hover {
   opacity: 0.6
+}
+
+
+h4.patrocinios {
+   color: #BBBBBB;
+   text-align: center;
 }
