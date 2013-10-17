@@ -468,6 +468,7 @@ padding-left: 5px;
   background-color: #000;
   min-height: 260px;
   background-size: cover;
+  margin: 20px 0;
 }
 
 .live-w {
@@ -475,7 +476,29 @@ padding-left: 5px;
   background-color: #000;
   min-height: 260px;
   background-size: cover;
+  margin: 20px 0;
 }
+
+
+
+.market-w {
+  background: url("/img/market.jpg") no-repeat;
+  background-color: #000;
+  min-height: 260px;
+  background-size: cover;
+  margin: 20px 0;
+}
+
+.city-w {
+  background: url("/img/city.jpg") no-repeat;
+  background-color: #000;
+  min-height: 260px;
+  background-size: cover;
+  margin: 20px 0;
+}
+
+
+
 
 .texto-bime {
   color: #fff;
