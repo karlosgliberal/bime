@@ -70,7 +70,7 @@ var traduccionesEu = {
   }
 }
 
-angular.module('bimeApp', ['ngGrid', 'cabecera', 'footer', 'footerInscribir', 'EnvioCorreoService', 'pascalprecht.translate', 'ngCookies'])
+angular.module('bimeApp', ['ngGrid', 'cabecera', 'footer', 'footerInscribir', 'footerPartner', 'EnvioCorreoService', 'pascalprecht.translate', 'ngCookies'])
   .config(function ($routeProvider, $translateProvider) {
     $routeProvider
       .when('/', {
