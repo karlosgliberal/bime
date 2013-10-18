@@ -2808,12 +2808,27 @@ label.error {
   z-index: 99; }
 
 .top-bar {
-  overflow: hidden;
+ /* overflow: hidden;
   height: 40px;
   line-height: 100px;
-  position: relative;
+  position: relative;*/
   /*background: #111111;*/
- /* margin-bottom: 1.875em;*/ }
+ /* margin-bottom: 1.875em;*/ 
+    background: none repeat scroll 0 0 #16BBEC;
+    height: 45px;
+    line-height: 45px;
+    margin-bottom: 0;
+    overflow: hidden;
+    position: relative;
+}
+
+.top-bar {
+    background: none repeat scroll 0 0 #16BBEC;
+    overflow: visible;
+}
+
+
+
   .top-bar ul {
     margin-bottom: 0;
     list-style: none; }
