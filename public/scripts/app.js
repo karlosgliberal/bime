@@ -101,6 +101,10 @@ angular.module('bimeApp', ['ngGrid', 'cabecera', 'footer', 'footerInscribir', 'E
         templateUrl: 'views/comunidad.html',
         controller: 'MainCtrl'
       })
+      .when('/condiciones', {
+        templateUrl: 'views/condiciones.html',
+        controller: 'MainCtrl'
+      })
       .when('/conferencias', {
         templateUrl: 'views/conferencias.html',
         controller: 'MainCtrl'
