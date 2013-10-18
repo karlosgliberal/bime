@@ -37,7 +37,7 @@ var traduccionesEs = {
     TITULO: 'Premios'
   },
   PATROCINADORES:{
-    TITULO: 'Patrocinadores'
+    TITULO: 'Partners'
   },
   PIE:{
     TITULO:'Sigue Bime Hack Day' 
