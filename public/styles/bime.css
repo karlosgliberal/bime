@@ -556,3 +556,53 @@ h4.patrocinios {
 .comunidad .contenido {
   min-height: 725px;
 }
+
+#conferencias-seccion {
+  padding: 15px;
+}
+.conference-item {
+  margin: 30px 0px;
+  padding-left: 10px;
+}
+
+
+.conferencia-item {
+background-color: #fff;
+margin: 10px 0;
+}
+
+.conferencia-title {
+   font-size: 1.5em;
+  font-weight: bold;
+    margin-bottom: 4px;
+    margin-top: 27px;
+}
+
+p.conferencia-bio {
+  font-size: 0.8em;
+}
+
+.img-bio img{
+  margin-bottom: 30px;
+}
+
+.c-bio {
+ font-size: 0.88em; 
+}
+
+.conferencia-hora {
+   margin-right: 23px;
+    position: relative;
+   
+    top: 17px;
+}
+
+span.dia {
+  margin-left: 3px;
+  margin-right: 4px;
+  text-transform: uppercase;
+}
+
+span.hora {
+font-weight: 300;
+}
