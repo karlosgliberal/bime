@@ -358,7 +358,7 @@ h1.sub-footer {
 }
 
 #seccion-interior {
-   background: url("/img/bg-interior.png") no-repeat scroll center center #F4F4F4;
+   background: url("/img/bg-interior.png") no-repeat scroll top center #F4F4F4;
     min-height: 600px;
     padding-bottom: 70px;
 }
@@ -614,4 +614,24 @@ font-weight: 300;
 
 .hack24 strong {
   color: #00B8EC;
+}
+
+.horarios h5 {
+  margin-bottom: 1.5em;
+  color: #00A4C7;
+}
+
+.conferecia-destacado {
+
+}
+
+.horarios span {
+  color: #bbbbbb;
+  font-weight: 300;
+}
+
+.segundo {
+  margin: 20px 0px;
+      background-color: #FFFFFF;
+    padding: 25px;
 }
