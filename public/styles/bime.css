@@ -529,9 +529,14 @@ padding-left: 5px;
     padding-right: 0.2em;
 }
 
-#presentacion a:hover, .presentacion-texto a:hover {
+#presentacion a:hover, .presentacion-texto a:hover, #patrocinadores a:hover {
   opacity: 0.6
 }
+
+#footer a:hover {
+  opacity: 0.9
+}
+
 
 
 h4.patrocinios {
