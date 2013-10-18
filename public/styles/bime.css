@@ -125,7 +125,7 @@ h1.presentacion {
 
 p.sub-texto {
     color: #8C8C8C;
-    font-size: 1.8em;
+    font-size: 1.6em;
     margin-bottom: 1em;
     text-align: center;
 }
@@ -358,7 +358,7 @@ h1.sub-footer {
 }
 
 #seccion-interior {
-   background: url("/img/bg-interior.png") no-repeat scroll center center #F4F4F4;
+   background: url("/img/bg-interior.png") no-repeat scroll top center #F4F4F4;
     min-height: 600px;
     padding-bottom: 70px;
 }
@@ -460,8 +460,8 @@ padding-left: 5px;
 }
 
 .sub-destacado {
-     font-size: 1.7em;
-    line-height: 1em;
+     font-size: 1.5em;
+    line-height: 1.1em;
     text-align: center;
 }
 
@@ -555,4 +555,86 @@ h4.patrocinios {
 
 .comunidad .contenido {
   min-height: 725px;
+}
+
+#conferencias-seccion {
+  padding: 15px;
+}
+.conference-item {
+  margin: 30px 0px;
+  padding-left: 10px;
+}
+
+
+.conferencia-item {
+background-color: #fff;
+margin: 10px 0;
+}
+
+.conferencia-title {
+   font-size: 1.5em;
+  font-weight: bold;
+    margin-bottom: 4px;
+    margin-top: 27px;
+}
+
+p.conferencia-bio {
+  font-size: 0.8em;
+}
+
+.img-bio img{
+  margin-bottom: 30px;
+}
+
+.c-bio {
+ font-size: 0.88em; 
+}
+
+.conferencia-hora {
+   margin-right: 23px;
+    position: relative;
+   
+    top: 17px;
+}
+
+span.dia {
+  margin-left: 3px;
+  margin-right: 4px;
+  text-transform: uppercase;
+}
+
+span.hora {
+font-weight: 300;
+}
+
+.hack24 .btn-info {
+  margin-top: 52px;
+
+}
+
+.hack24 strong {
+  color: #00B8EC;
+}
+
+.horarios h5 {
+  margin-bottom: 1.5em;
+  color: #00A4C7;
+}
+
+.conferecia-destacado {
+
+}
+
+.horarios span {
+  color: #bbbbbb;
+  font-weight: 300;
+}
+
+.segundo {
+  margin: 20px 0px;
+      background-color: #FFFFFF;
+    padding: 25px;
+}
+ul#listado {
+   margin-left: 30px !important;
 }
