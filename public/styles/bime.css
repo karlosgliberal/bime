@@ -125,7 +125,7 @@ h1.presentacion {
 
 p.sub-texto {
     color: #8C8C8C;
-    font-size: 1.8em;
+    font-size: 1.6em;
     margin-bottom: 1em;
     text-align: center;
 }
@@ -460,8 +460,8 @@ padding-left: 5px;
 }
 
 .sub-destacado {
-     font-size: 1.7em;
-    line-height: 1em;
+     font-size: 1.5em;
+    line-height: 1.1em;
     text-align: center;
 }
 
@@ -605,4 +605,13 @@ span.dia {
 
 span.hora {
 font-weight: 300;
+}
+
+.hack24 .btn-info {
+  margin-top: 52px;
+
+}
+
+.hack24 strong {
+  color: #00B8EC;
 }
