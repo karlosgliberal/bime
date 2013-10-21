@@ -9,8 +9,8 @@ var traduccionesEs = {
   IMG_CABECERA: '/img/banner.png',
   MENU: {
     INICIO: 'Inicio',
-    HACK: 'Hack x 24',
-    QUE_ES: '¿Que es?',
+    HACK: 'Hackx24',
+    QUE_ES: '¿Qué es?',
     BIME: 'BIME',
     HORARIOS: 'Horarios',
     CONFERENCIAS: 'Conferencias',
@@ -27,7 +27,7 @@ var traduccionesEs = {
 
   ACTIVIDADES:{
     TITULO: 'Actividades',
-    SUBTITULO_24: 'Hackathon <br> Hack x 24',
+    SUBTITULO_24: 'Hackathon <br> Hackx24',
     TEXTO_24: 'Haz de tu sueño una realidad junto a tu equipo y tus empresas preferidas. Tienes 24 horas, las mejores aplicaciones serán premiadas. Las zonas de acción están divididas por <a href="/#hacx24">NODOS</a>.',
     SUBTITULO_CHARLAS: 'Conferencias y Workshops',
     TEXTO_CHARLAS: 'Descubre y prueba nuevas tecnologías y técnicas de la mano de grandes profesionales. Tendrás acceso a todas estas experiencias, participa!!. El aforo es limitado así que rellena el “formulario de inscripción”  y apúntate a las que desees asistir!',
@@ -61,7 +61,7 @@ var traduccionesEu = {
     FAQ: 'FAQ'
   },
   PRESENTACION:{
-    TITULO: 'EU ¿Que es Bime hack a Day?',
+    TITULO: 'EU ¿Que es Bime hack Day?',
     SUBTEXTO: 'EU Es el mayor encuentro­ conference del estado. Especialmente creado para fomentar la <strong>CREATIVIDAD</strong> y la invención reúne a amantes y profesionales de la Música y la Tecnología, <strong>MAKERS</strong> y <strong>HACKERS</strong>.',
     TEXTO: 'EU Participarán durante dos días en diferentes actividades abiertas como concursos, charlas y talleres y un hackx24 (hackaton de 24h), todo ello relacionado con la industria musical. Los asistentes poseen la oportunidad única de testear las últimas novedades del mercado así como contactar profesionalmente con grandes empresas, mostrar sus trabajos a públicos especializados y generar comunidad, Una intensa jornada de 36h donde se genera el futuro de la música, pero sobretodo donde se aprende y se comparte.'
   },
