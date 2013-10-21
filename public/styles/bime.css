@@ -1,23 +1,4 @@
 
-/*
-Media*/
-
-@media only screen and (max-width: 768px) {
-  
-h1.actividades {
-    background: none;
-}
-
-}
-
-@media only screen and (max-width: 320px) {
-  
-.btn-info a {
-    padding: 9px 15px;
-}
-
-}
-
 
 .top-bar-section ul li > a:hover {
     background: #00A4C7; 
@@ -585,9 +566,6 @@ font-weight: 300;
   color: #00A4C7;
 }
 
-.conferecia-destacado {
-
-}
 
 .horarios span {
   color: #bbbbbb;
@@ -599,6 +577,7 @@ font-weight: 300;
       background-color: #FFFFFF;
     padding: 25px;
 }
+
 ul#listado {
    margin-left: 30px !important;
 }
@@ -611,5 +590,24 @@ ul#listado {
   top: -3px;
 }
 
+
+/*
+Media*/
+
+@media only screen and (max-width: 768px) {
+  
+h1.actividades {
+    background: none;
+}
+
+}
+
+@media only screen and (max-width: 320px) {
+  
+.btn-info a {
+    padding: 9px 15px;
+}
+
+}
 
 
