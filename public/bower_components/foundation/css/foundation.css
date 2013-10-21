@@ -2808,24 +2808,18 @@ label.error {
   z-index: 99; }
 
 .top-bar {
- /* overflow: hidden;
-  height: 40px;
-  line-height: 100px;
-  position: relative;*/
-  /*background: #111111;*/
- /* margin-bottom: 1.875em;*/ 
+    overflow: hidden;
     background: none repeat scroll 0 0 #16BBEC;
     height: 45px;
     line-height: 45px;
     margin-bottom: 0;
-    overflow: hidden;
     position: relative;
 }
 
-.top-bar {
+/*.top-bar {
     background: none repeat scroll 0 0 #16BBEC;
     overflow: visible;
-}
+}*/
 
 
 
@@ -2877,7 +2871,9 @@ label.error {
     .top-bar .toggle-topbar.menu-icon {
       right: 15px;
       top: 50%;
-      padding-left: 40px; }
+      padding-left: 40px;
+      margin-top: -16px;
+       }
       .top-bar .toggle-topbar.menu-icon a {
         text-indent: -48px;
         width: 34px;
@@ -2899,12 +2895,12 @@ label.error {
      }
 
     .top-bar.expanded .title-area {
-      background: #111111; }
+      background: #16BBEC; }
     .top-bar.expanded .toggle-topbar a {
-      color: #888888; }
+      color: #fff; }
       .top-bar.expanded .toggle-topbar a span {
-        -webkit-box-shadow: 0 10px 0 1px #888888, 0 16px 0 1px #888888, 0 22px 0 1px #888888;
-        box-shadow: 0 10px 0 1px #888888, 0 16px 0 1px #888888, 0 22px 0 1px #888888; }
+        -webkit-box-shadow: 0 10px 0 1px #fff, 0 16px 0 1px #fff, 0 22px 0 1px #fff;
+        box-shadow: 0 10px 0 1px #fff, 0 16px 0 1px #fff, 0 22px 0 1px #fff; }
 
 .top-bar-section {
   left: 0;
@@ -3017,7 +3013,7 @@ label.error {
 
 @media only screen and (min-width: 58.75em) {
   .top-bar {
-   
+   background: none;
     *zoom: 1;
     overflow: visible; }
     .top-bar:before, .top-bar:after {

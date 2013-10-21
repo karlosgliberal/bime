@@ -55,6 +55,26 @@
   opacity:1;
 }
 
+/*
+Media*/
+
+@media only screen and (max-width: 768px) {
+  
+h1.actividades {
+    background: none;
+}
+
+}
+@media only screen and (max-width: 320px) {
+  
+.btn-info a {
+    padding: 9px 15px;
+}
+
+}
+
+
+
 .top-bar-section ul li > a:hover {
     background: #00A4C7; 
 }
@@ -646,3 +666,6 @@ ul#listado {
   position: relative;
   top: -3px;
 }
+
+
+
