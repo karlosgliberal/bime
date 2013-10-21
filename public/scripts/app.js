@@ -7,18 +7,16 @@ var traduccionesEs = {
   MAS_INFORMACION: 'Más informacion',
   INSCRIBETE: 'Inscríbete',
   IMG_CABECERA: '/img/banner.png',
-  MENU: {
-    INICIO: 'Inicio',
-    HACK: 'Hackx24',
-    QUE_ES: '¿Qué es?',
-    BIME: 'BIME',
-    HORARIOS: 'Horarios',
-    CONFERENCIAS: 'Conferencias',
-    PREMIOS: 'Premios',
-    COMUNIDAD: 'Comunidad',
-    INFO: '+ Info'
-  },
   
+  inicio: 'Inicio',
+  hackx24: 'Hackx24',
+  que_es: '¿Qué es?',
+  BIME: 'BIME',
+  horarios: 'Horarios',
+  conferencias: 'Conferencias',
+  premios: 'Premios',
+  comunidad: 'Comunidad',
+  info: '+ Info',
   PRESENTACION:{
     TITULO: '¿Que es BIME Hack Day?',
     SUBTEXTO: 'El mayor encuentro unconference del estado, especialmente creado para fomentar la <strong>CREATIVIDAD</strong> y la <strong>INVENCIÓN</strong> y que reunirá a amantes de la música y nuevas tecnologías con los profesionales de las empresas más destacadas en este sector. Dos jornadas en las que <strong>MAKERS</strong>, <strong>HACKERS</strong> y <strong>DESARROLLADORES</strong> crearán las nuevas bases para las plataformas del futuro.',          
