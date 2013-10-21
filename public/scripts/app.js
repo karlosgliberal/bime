@@ -19,7 +19,7 @@ var traduccionesEs = {
   info: '+ Info',
   PRESENTACION:{
     TITULO: '¿Que es BIME Hack Day?',
-    SUBTEXTO: 'El mayor encuentro unconference del estado, especialmente creado para fomentar la <strong>CREATIVIDAD</strong> y la <strong>INVENCIÓN</strong> y que reunirá a amantes de la música y nuevas tecnologías con los profesionales de las empresas más destacadas en este sector. Dos jornadas en las que <strong>MAKERS</strong>, <strong>HACKERS</strong> y <strong>DESARROLLADORES</strong> crearán las nuevas bases para las plataformas del futuro.',          
+    SUBTEXTO: 'El mayor encuentro unconference del estado, especialmente creado para fomentar la <strong>CREATIVIDAD</strong> y la <strong>INVENCIÓN</strong> y que reunirá a amantes de la musica y las nuevas tecnologías con los profesionales de las empresas más destacadas en este sector. Dos jornadas en las que <strong>MAKERS</strong>, <strong>HACKERS</strong> y <strong>DESARROLLADORES</strong> crearán las nuevas bases para las plataformas del futuro.',          
     TEXTO: 'Participarán durante dos días en diferentes actividades abiertas como concursos, charlas y talleres y un hackx24 (hackaton de 24h), todo ello relacionado con la industria musical. Los asistentes poseen la oportunidad única de testear las últimas novedades del mercado así como contactar profesionalmente con grandes empresas, mostrar sus trabajos a públicos especializados y generar comunidad, Una intensa jornada de 36h donde se genera el futuro de la música, pero sobretodo donde se aprende y se comparte.'
   },
 

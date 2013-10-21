@@ -590,7 +590,9 @@ ul#listado {
   top: -3px;
 }
 
-
+.charlas .contenido {
+  min-height: 640px;
+}
 /*
 Media*/
 
@@ -609,5 +611,6 @@ h1.actividades {
 }
 
 }
+
 
 
