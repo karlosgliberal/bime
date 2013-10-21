@@ -638,3 +638,11 @@ font-weight: 300;
 ul#listado {
    margin-left: 30px !important;
 }
+
+
+.gastos{
+  color: #898989;
+  font-size: 0.6em;
+  position: relative;
+  top: -3px;
+}
