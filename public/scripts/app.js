@@ -38,6 +38,9 @@ var traduccionesEs = {
     TEXTO_CHARLAS: 'Descubre y prueba nuevas tecnologías y técnicas de la mano de grandes profesionales. Tendrás acceso a todas estas experiencias, participa!!. El aforo es limitado así que rellena el “formulario de inscripción”',
     SOLO: '100 puestos de trabajo, ¿Te vas a quedar sin el tuyo?'
   },
+  PREMIOS:{
+    TITULO: 'Premios'
+  },
   comunidadSeccion: {
     comun:'Comunidad',
     texto: 'Para mantenerte informado sobre todas las novedades que van surgiendo alrededor de BIME Hack Day únete a nuestras comunidades!',
