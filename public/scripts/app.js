@@ -30,6 +30,14 @@ var traduccionesEs = {
     market: '<strong>BIME MARKET</strong> es el lugar expositivo donde el público que asistirá a los conciertos del <strong>BIME LIVE</strong> podrá estar en contacto con las principales empresas de la Industria Musical. Donde las discográficas, los festivales, las plataformas digitales, las redes sociales, los centros de formación darán a conocer sus actividades, sus ultimas novedades o vender sus productos.Será también un marco idóneo para todos los profesionales que quieran acercarse a estas empresas y concretar negocios. Dispondrá de un escenario donde los expositores podrán realizar presentaciones concretas y relevantes, donde los artistas podrán estar respondiendo a entrevistas o firmando discos.',
     city: 'Bizkaia y la ciudad de Bilbao gozan todo el año de una gran agenda cultural; Y, durante el mes de Noviembre, se realizaran actividades de gran relevancia estatal e internacional. BIME ha llegado a acuerdos con estos eventos para una promoción mutua y el desarrollo de acciones de colaboración. El objetivo es favorecer los intercambios entre profesionales y facilitar el descubrimiento de la riqueza cultural de Bizkaia.</p>'
   },
+  ACTIVIDADES:{
+    TITULO: 'Actividades',
+    SUBTITULO_24: 'Hackathon <br> Hackx24',
+    TEXTO_24: 'Haz de tu sueño una realidad junto a tu equipo y tus empresas preferidas. Tienes 24 horas, las mejores aplicaciones serán premiadas. Las zonas de acción están divididas por <a target="_blank" href="/#/hackx24">NODOS</a>.',
+    SUBTITULO_CHARLAS: 'Conferencias y Workshops',
+    TEXTO_CHARLAS: 'Descubre y prueba nuevas tecnologías y técnicas de la mano de grandes profesionales. Tendrás acceso a todas estas experiencias, participa!!. El aforo es limitado así que rellena el “formulario de inscripción”',
+    SOLO: '100 puestos de trabajo, ¿Te vas a quedar sin el tuyo?'
+  },
   comunidadSeccion: {
     comun:'Comunidad',
     texto: 'Para mantenerte informado sobre todas las novedades que van surgiendo alrededor de BIME Hack Day únete a nuestras comunidades!',
