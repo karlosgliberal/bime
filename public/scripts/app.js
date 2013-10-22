@@ -28,7 +28,7 @@ var traduccionesEs = {
     SUBTITULO_24: 'Hackathon <br> Hackx24',
     TEXTO_24: 'Haz de tu sueño una realidad junto a tu equipo y tus empresas preferidas. Tienes 24 horas, las mejores aplicaciones serán premiadas. Las zonas de acción están divididas por <a target="_blank" href="/#/hackx24">NODOS</a>.',
     SUBTITULO_CHARLAS: 'Conferencias y Workshops',
-    TEXTO_CHARLAS: 'Descubre y prueba nuevas tecnologías y técnicas de la mano de grandes profesionales. Tendrás acceso a todas estas experiencias, participa!!. El aforo es limitado así que rellena el “formulario de inscripción”  y apúntate a las que desees asistir!',
+    TEXTO_CHARLAS: 'Descubre y prueba nuevas tecnologías y técnicas de la mano de grandes profesionales. Tendrás acceso a todas estas experiencias, participa!!. El aforo es limitado así que rellena el “formulario de inscripción”',
     SOLO: '100 puestos de trabajo, ¿Te vas a quedar sin el tuyo?'
   },
   PREMIOS:{
