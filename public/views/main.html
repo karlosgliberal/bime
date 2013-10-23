@@ -2,11 +2,11 @@
 	<div id="presentacion">
 		<div class="row">
 			<div class="large-12 columns">
-				<h1 class="presentacion" translate>PRESENTACION.TITULO</h1>
+				<h1 class="presentacion" translate>main.titulo</h1>
 				<p class="sub-texto" ng-bind-html-unsafe="'PRESENTACION.SUBTEXTO'|translate"></p>
-				<p class="rigth"><a href="/#/que-es" translate>VER_MAS</a></p>
+				<p class="rigth"><a href="/#/que-es" translate>ver_mas</a></p>
 
-				<h4 class="patrocinios">Con la tecnología y soporte técnico de:</h4>
+				<h4 class="patrocinios"translate>Con la tecnología y soporte técnico de:</h4>
 				<div class="presentacion-texto">
 				<div class="row">
 			<div class="large-12 columns">
@@ -39,7 +39,7 @@
 	<div id="actividades">
 		<div class="row">
 			<div class="large-12 columns">
-					<h1 class="actividades" translate>ACTIVIDADES.TITULO</h1>
+					<h1 class="actividades" translate>main.activida_titulo</h1>
 				<div class="linea"></div>
 			</div>
 		</div>
@@ -47,7 +47,7 @@
 			<div class="large-6 columns">
 				<div class="actividad-wrapper hack24">
 					<h2 translate>ACTIVIDADES.SUBTITULO_24</h2>
-					<p ng-bind-html-unsafe="'ACTIVIDADES.TEXTO_24'|translate"></p>
+					<p translate ng-bind-html-unsafe="'ACTIVIDADES.TEXTO_24'|translate"></p>
 					<p><strong>Music APIs / Web services and cloud computing / Video Games / Mobile Apps 
 					</strong>
 					
@@ -79,16 +79,15 @@
 		<div class="row">
 			<div class="large-12 columns">
 
-				<p class="destacado">Premio BIME Hack Day de <strong>1500€</strong> al mejor desarrollo</p>
+				<p class="destacado" translate>main.premios</p>
 			
-			<p class="sub-destacado">
-			Premio para el mejor desarrollo en cada nodo de <strong>DOS BONOS</strong> para el <strong>BILBAO BBK LIVE 2014</strong> y <strong>DOS BONOS</strong> para el <strong>BIME LIVE</strong></p>
+			<p class="sub-destacado" translate>main.subpremios</p>
 
 			</div>
 		</div>
 			<div class="row">
 			<div class="large-12 columns">
-				<div class="header-seccion"><h1 class="seccion">Premios de nuestros partners</h1></div>
+				<div class="header-seccion"><h1 class="seccion" translate>main.partners</h1></div>
 			</div>
 		</div>
 		<div class="row">
@@ -96,7 +95,7 @@
 				<div class="premio-item">
 					<h3 class="premio-titular">Music APIs</h3>
 					<h3 class="premio-sub">Spotify</h3>
-					<p class="texto-pre">Cuenta Premium para un año.</p>
+					<p class="texto-pre" translate >main.spotify</p>
 					<img src="/img/spotify-p.png" alt="Spotify">
 				</div>
 			</div>
@@ -104,7 +103,7 @@
 				<div class="premio-item">
 					<h3 class="premio-titular">Music Apis</h3>
 					<h3 class="premio-sub">Deezer</h3>
-					<p class="texto-pre">Cuenta Premium para un año.</p>
+					<p class="texto-pre" translate>main.deezer</p>
 					<img src="/img/deezer-p.png" alt="Deezer">
 				</div>
 			</div>
@@ -112,7 +111,7 @@
 				<div class="premio-item">
 					<h3 class="premio-titular">Cloud Computing</h3>
 					<h3 class="premio-sub">Amazon WS</h3>
-					<p class="texto-pre">Cuenta Premium para un año.</p>
+					<p class="texto-pre" translate>main.aws</p>
 					<img src="/img/amazon-p.png" alt="Amazon ws">
 				</div>
 			</div>
@@ -123,7 +122,7 @@
 				<div class="premio-item">
 					<h3 class="premio-titular">Videogames</h3>
 					<h3 class="premio-sub">Delirium Studios</h3>
-					<p class="texto-pre">Juego de Los Mundos de Alice.</p>
+					<p class="texto-pre" translate>main.delirum</p>
 					<img src="/img/delirium-p.png" alt="Delirium">
 				</div>
 			</div>
@@ -131,7 +130,7 @@
 				<div class="premio-item">
 					<h3 class="premio-titular">Mobile Apps</h3>
 					<h3 class="premio-sub">Asoma</h3>
-					<p class="texto-pre">Prácticas profesionales.</p>
+					<p class="texto-pre" translate>main.asoma</p>
 					<img src="/img/pa-asoma.png" alt="Asoma">
 				</div>
 			</div>
@@ -139,15 +138,10 @@
 				<div class="premio-item">
 					<h3 class="premio-titular">Open Hardware</h3>
 					<h3 class="premio-sub">Cooking Hacks</h3>
-					<p class="texto-pre">Kit de arduino.</p>
+					<p class="texto-pre" translate>main.cooking</p>
 					<img src="/img/pa-cooking.png" alt="Asoma">
 				</div>
 			</div>
-	<!-- 		<div class="large-4 columns">
-				<div class="premio-item solo">
-					<img src="/img/bime-generico.png" alt="BIME">
-				</div>
-			</div> -->
 		</div>
 </div>
 
