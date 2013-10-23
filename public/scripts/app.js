@@ -177,6 +177,7 @@ var traduccionesEs = {
   premiosSeccion: {
 
   },
+  
   PIE:{
     TITULO:'Sigue Bime Hack Day' 
   }
