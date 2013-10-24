@@ -2,7 +2,6 @@
 'use strict';
 
 var traduccionesEs = {
-  HEADLINE: '<b>hola<b>',
   ver_mas: 'VER MÁS',
   MAS_INFORMACION: 'Más informacion',
   INSCRIBETE: 'Inscríbete',

@@ -1,7 +1,8 @@
-  VER_MAS: 'VER MÁS',
+ver_mas: 'VER MÁS',
   MAS_INFORMACION: 'Más informacion',
   INSCRIBETE: 'Inscríbete',
   IMG_CABECERA: '/img/banner.png',
+  
   inicio: 'Inicio',
   hackx24_var: 'Hackx24',
   que_es: '¿Qué es?',
@@ -11,8 +12,20 @@
   premios: 'Premios',
   comunidad: 'Comunidad',
   info: '+ Info',
+  main:{
+    titulo: '¿Que es BIME Hack Day?',
+    premios: 'Premio BIME Hack Day de <strong>1500€</strong> al mejor desarrollo',
+    subpremios: 'Premio para el mejor desarrollo en cada nodo de <strong>DOS BONOS</strong> para el <strong>BILBAO BBK LIVE 2014</strong> y <strong>DOS BONOS</strong> para el <strong>BIME LIVE</strong>',
+    partners: 'Premios de nuestros partners',
+    spotify: 'Cuenta Premium para un año.',
+    deezer: 'Cuenta Premium para un año.',
+    aws: 'Cuenta Premium para un año.',
+    delirum: 'Juego de Los Mundos de Alice.',
+    asoma: 'Practicas profesionales.',
+    cooking: 'Kit de arduino.',
+  },
   PRESENTACION:{
-    TITULO: '¿Que es BIME Hack Day?',
+    TITULO: '',
     SUBTEXTO: 'El mayor encuentro unconference del estado, especialmente creado para fomentar la <strong>CREATIVIDAD</strong> y la <strong>INVENCIÓN</strong> y que reunirá a amantes de la musica y las nuevas tecnologías con los profesionales de las empresas más destacadas en este sector. Dos jornadas en las que <strong>MAKERS</strong>, <strong>HACKERS</strong> y <strong>DESARROLLADORES</strong> crearán las nuevas bases para las plataformas del futuro.',          
     TEXTO: 'Participarán durante dos días en diferentes actividades abiertas como concursos, charlas y talleres y un hackx24 (hackaton de 24h), todo ello relacionado con la industria musical. Los asistentes poseen la oportunidad única de testear las últimas novedades del mercado así como contactar profesionalmente con grandes empresas, mostrar sus trabajos a públicos especializados y generar comunidad, Una intensa jornada de 36h donde se genera el futuro de la música, pero sobretodo donde se aprende y se comparte.'
   },
