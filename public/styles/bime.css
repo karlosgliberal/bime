@@ -593,6 +593,12 @@ ul#listado {
 .charlas .contenido {
   min-height: 640px;
 }
+
+.line {
+  padding-bottom: 26px;
+}
+
+
 /*
 Media*/
 
