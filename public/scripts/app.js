@@ -211,7 +211,7 @@ var traduccionesEs = {
     p6: '<strong>BIME Hack Day</strong> ofrece  la ocasión única de participar en workshops y asistir a conferencias ,presentaciones técnicas sobre las APIs, desarrollo software, experiencias personales, casos de éxito y un hackaton de 24h en el que recibirás el soporte técnico de nuestros partners.',
   },
   PIE:{
-    TITULO:'Sigue Bime Hack Day' 
+    TITULO:'Sigue BIME Hack Day' 
   }
 }
 
