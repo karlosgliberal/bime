@@ -57,7 +57,7 @@ var traduccionesEs = {
     comun:'Comunidad',
     texto: 'Para mantenerte informado sobre todas las novedades que van surgiendo alrededor de BIME Hack Day únete a nuestras comunidades!',
     google: 'Google+',
-    twitter: 'Titter'
+    twitter: 'Twitter'
   },
   condiciones: {
     breadcrumb:'Condiciones de participación',
@@ -76,7 +76,7 @@ var traduccionesEs = {
     p11: '<strong>PREMIOS</strong><br>Los PREMIOS consisten en un premio de 1.500 € (Mil quinientos euros) así como dos bonos para el   Bilbao BBK Live 2014 para el ganador de cada nodo del Hackx24 y los premios patrocinados de cada partner. El ganador no podrá exigir el cambio del PREMIO por otro, ni por su valor en dinero en efectivo, ni por un bien o servicio distinto de los indicados como PREMIO, de modo que el PREMIO no será negociable. Los premios son de carácter personal, y en consecuencia no se podrán ceder los mismos a un tercero. Last Tour y los PARTNERS se reservan el derecho de cancelar, suspender o modificar estos PREMIOS, por caso fortuito o fuerza mayor u otras circunstancia/s que a criterio de Last Tour así lo justifiquen. En ningún caso el ejercicio de tales derechos por parte de Last Tour dará derecho al participante a reclamo alguno.'
   },
   conferenciasSeccion: {
-    breadcrumb: 'Conferenciasy workshops',
+    breadcrumb: 'Conferencias y workshops',
     titulo: 'Conferencias y workshops',
     texto: 'Durante BIME Hack Day se celebrarán conferencias y workshops repartidas durante los dos días de la siguiente manera:',
     dia20: 'Día 20',
