@@ -18,6 +18,7 @@ var traduccionesEs = {
   info: '+ Info',
   main:{
     titulo: '¿Que es BIME Hack Day?',
+    activida_titulo: 'Actividades',
     premios: 'Premio BIME Hack Day de <strong>1500€</strong> al mejor desarrollo',
     subpremios: 'Premio para el mejor desarrollo en cada nodo de <strong>DOS BONOS</strong> para el <strong>BILBAO BBK LIVE 2014</strong> y <strong>DOS BONOS</strong> para el <strong>BIME LIVE</strong>',
     partners: 'Premios de nuestros partners',
@@ -46,7 +47,7 @@ var traduccionesEs = {
     SUBTITULO_24: 'Hackathon <br> Hackx24',
     TEXTO_24: 'Haz de tu sueño una realidad junto a tu equipo y tus empresas preferidas. Tienes 24 horas, las mejores aplicaciones serán premiadas. Las zonas de acción están divididas por <a target="_blank" href="/#/hackx24">NODOS</a>.',
     SUBTITULO_CHARLAS: 'Conferencias y Workshops',
-    TEXTO_CHARLAS: 'Descubre y prueba nuevas tecnologías y técnicas de la mano de grandes profesionales. Tendrás acceso a todas estas experiencias, participa!!. El aforo es limitado así que rellena el “formulario de inscripción”',
+    TEXTO_CHARLAS: 'Descubre y prueba nuevas tecnologías y técnicas de la mano de grandes profesionales. Tendrás acceso a todas estas experiencias, participa!!.<br> El aforo es limitado así que rellena el “formulario de inscripción”',
     SOLO: '100 puestos de trabajo, ¿Te vas a quedar sin el tuyo?'
   },
   PREMIOS:{
@@ -179,8 +180,9 @@ var traduccionesEs = {
   },
   hackx24: {
     breadcrumb: 'Hackx24',
+    h4: 'Mapa Nodos',
     titulo: 'Hackx24',
-    texto: 'hackx24.texto Es un encuentro de desarrolladores de tecnología (hardware y software) cuyo objetivo es llevar a cabo un proyecto colaborativo innovador durante 24 horas. Además las empresas colaboradoras quieren premiar tu trabajo a través de los contests. Los mejores proyectos serán premiados dentro de las siguientes categorías:',
+    texto: 'Es un encuentro de desarrolladores de tecnología (hardware y software) cuyo objetivo es llevar a cabo un proyecto colaborativo innovador durante 24 horas. Además las empresas colaboradoras quieren premiar tu trabajo a través de los contests. Los mejores proyectos serán premiados dentro de las siguientes categorías:',
     l1: '<strong>hackx24.l1 Premio BIME Hack Day al mejor desarrollo: 1500 €</strong><br> Todos los proyectos desarrollados en Hackx24 podrán optar a este premio. ',
     l2: '<strong>hackx24.l2 Premio genérico: 2 bonos para el Bilbao BBK Live + 2 bonos BIME Live</strong><br> Todos los premios entregados irán acompañados de estas 4 entradas para cada ganador',
     l3: '<strong>Premios patrocinados:</strong><br>Cada empresa colaboradora en el evento ofrecerá <a target="_blank" href="/#/premios">diferentes premios</a>'
@@ -214,7 +216,7 @@ var traduccionesEs = {
 }
 
 var traduccionesEu = {
-  
+
 }
  
 
