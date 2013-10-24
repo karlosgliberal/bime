@@ -156,7 +156,7 @@ var traduccionesEs = {
     d19: 'Presentaciones Hackx24',
     d20: 'Entrega de premios',
     d21: 'Clausura',
-    d22: 'translate * La comida se servirá entre las 13:00 y las 15:30 h. La cena a partir de las 22:00h'
+    d22: '* La comida se servirá entre las 13:00 y las 15:30 h. La cena a partir de las 22:00h'
   },
   infoSeccion: {
    breadcrumbs: '+info',
@@ -183,8 +183,8 @@ var traduccionesEs = {
     h4: 'Mapa Nodos',
     titulo: 'Hackx24',
     texto: 'Es un encuentro de desarrolladores de tecnología (hardware y software) cuyo objetivo es llevar a cabo un proyecto colaborativo innovador durante 24 horas. Además las empresas colaboradoras quieren premiar tu trabajo a través de los contests. Los mejores proyectos serán premiados dentro de las siguientes categorías:',
-    l1: '<strong>hackx24.l1 Premio BIME Hack Day al mejor desarrollo: 1500 €</strong><br> Todos los proyectos desarrollados en Hackx24 podrán optar a este premio. ',
-    l2: '<strong>hackx24.l2 Premio genérico: 2 bonos para el Bilbao BBK Live + 2 bonos BIME Live</strong><br> Todos los premios entregados irán acompañados de estas 4 entradas para cada ganador',
+    l1: '<strong>Premio BIME Hack Day al mejor desarrollo: 1500 €</strong><br> Todos los proyectos desarrollados en Hackx24 podrán optar a este premio. ',
+    l2: '<strong>Premio genérico: 2 bonos para el Bilbao BBK Live + 2 bonos BIME Live</strong><br> Todos los premios entregados irán acompañados de estas 4 entradas para cada ganador',
     l3: '<strong>Premios patrocinados:</strong><br>Cada empresa colaboradora en el evento ofrecerá <a target="_blank" href="/#/premios">diferentes premios</a>'
   },
   premiosSeccion: {
