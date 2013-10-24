@@ -18,6 +18,7 @@ var traduccionesEs = {
   info: '+ Info',
   main:{
     titulo: '¿Que es BIME Hack Day?',
+    h4: 'Con la tecnología y soporte técnico de:',
     activida_titulo: 'Actividades',
     premios: 'Premio BIME Hack Day de <strong>1500€</strong> al mejor desarrollo',
     subpremios: 'Premio para el mejor desarrollo en cada nodo de <strong>DOS BONOS</strong> para el <strong>BILBAO BBK LIVE 2014</strong> y <strong>DOS BONOS</strong> para el <strong>BIME LIVE</strong>',
