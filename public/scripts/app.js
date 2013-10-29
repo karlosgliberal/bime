@@ -247,7 +247,7 @@ var traduccionesEu = {
   },
   PRESENTACION:{
     TITULO: '',
-    SUBTEXTO: 'Estatuko topaketa profesionalik handiena da. SORMENA eta ASMAKETA sustatzea du helburu eta horretarako musikazale eta teknologia berrizale amorratuak musika-arloko enpresa nagusien ordezkariekin bilduko ditu. Bi egunetan zehar, MAKERREK; HACKERREK eta GARATZAILEEK etorkizuneko plataformen oinarriak ezarriko dituzte.',
+    SUBTEXTO: 'Estatuko topaketa profesionalik handiena da. <strong>SORMENA</strong> eta <strong>ASMAKETA</strong> sustatzea du helburu eta horretarako musikazale eta teknologia berrizale amorratuak musika-arloko enpresa nagusien ordezkariekin bilduko ditu. Bi egunetan zehar, <strong>MAKERREK</strong>; <strong>HACKERREK</strong> eta <strong>GARATZAILEEK</strong> etorkizuneko plataformen oinarriak ezarriko dituzte.',
     TEXTO: 'Bi egunez, hainbat jarduera irekitan parte hartuko dute, esate baterako, lehiaketak, hitzaldiak, tailerrak eta hackx24 (24 ordutako hackatoia), hori guztia musikaren industriari lotua. Bertara hurbiltzen direnek merkatuko azken berritasunez gozatzeko aukera izango dute, baita ere enpresa nagusiekin harremanetan jartzeko, euren lanak publiko adituari erakusteko eta harremanak indartzeko. 36 orduko jardunaldi egitekotsu honetan, musikaren etorkizuna xedatuko da, baina, batez ere, ikasteko eta elkarbanatzeko parada bikaina dugu.',
   },
   bime: {
