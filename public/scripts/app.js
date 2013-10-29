@@ -242,7 +242,7 @@ var traduccionesEu = {
     deezer: 'Urte oso baterako Premium Kontua',
     aws: 'Urte oso baterako Premium Kontua',
     delirum: 'Pack jokoa',
-    asoma: 'Praktika profesionalak',
+    asoma: 'Formazio eta aholkatze saioa',
     cooking: 'Arduino kita',
   },
   PRESENTACION:{
@@ -413,7 +413,7 @@ var traduccionesEu = {
     deezer: 'Urte oso baterako Premium Kontua',
     aws: 'Urte oso baterako Premium Kontua',
     delirum: '“Los Mundos de Alice” jokoa',
-    asoma: 'Praktika profesionalak',
+    asoma: 'Formazio eta aholkatze saioa',
     cooking: 'Arduino kita'
   },
   que_esSeccion: {
