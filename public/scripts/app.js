@@ -233,7 +233,7 @@ var traduccionesEu = {
   info: 'Info +',
   main:{
     titulo: 'Zer da BIME Hack Day?',
-    h4: 'Garapen hoberenari 1500€-ko BIME Hack Day Saria',
+    h4: 'Gure partnerren sariak',
     activida_titulo: 'Jarduera',
     premios: 'Garapen hoberenari <strong>1500€-ko</strong> BIME Hack Day Saria',
     subpremios: 'Saria BILBAO BBK LIVE 2014rako BI TXARTEL izango da nodo bakoitzeko, eta beste BI TXARTEL BIME LIVErako.',
