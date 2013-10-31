@@ -200,6 +200,8 @@ var traduccionesEs = {
     delirum: 'Pack de videojuegos.',
     asoma: 'Jornada de Formación y asesoramiento.',
     cooking: 'Kit de arduino.',
+    gogear: 'Merchandising oficial & Cuenta Premium.',
+    mobme: 'Auriculares Bluetooth Energy wireless Bt5 dark iron.'
   },
   que_esSeccion: {
     breadcrumbs: '¿Qué es BIME Hack Day?',
@@ -267,7 +269,7 @@ var traduccionesEu = {
     SOLO: '100 lanpostu, zeurea daukazu zain!'
   },
   PREMIOS:{
-    TITULO: '100 lanpostu, zeurea daukazu zain!'
+    TITULO: 'Sariak'
   },
   comunidadSeccion: {
     comun:'Elkartea',
@@ -414,7 +416,9 @@ var traduccionesEu = {
     aws: 'Urte oso baterako Premium Kontua',
     delirum: '“Los Mundos de Alice” jokoa',
     asoma: 'Formazio eta aholkatze saioa',
-    cooking: 'Arduino kita'
+    cooking: 'Arduino kita',
+    gogear: 'Merchandising ofiziala eta Premium Kontua.',
+    mobme: 'Entzungauilu Bluetooth Energy wireless Bt5 dark iron.'
   },
   que_esSeccion: {
     breadcrumbs: 'Zer da BIME Hack Day?',
