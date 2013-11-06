@@ -201,7 +201,8 @@ var traduccionesEs = {
     asoma: 'Jornada de Formación y asesoramiento.',
     cooking: 'Kit de arduino.',
     gogear: 'Merchandising oficial & Cuenta Premium.',
-    mobme: 'Auriculares Bluetooth Energy wireless Bt5 dark iron.'
+    mobme: 'Auriculares Bluetooth Energy wireless Bt5 dark iron.',
+    nvivo: 'Entrada doble para cualquier concierto en territorio nacional 2013/2014 (Max.100€ ambas entradas).'
   },
   que_esSeccion: {
     breadcrumbs: '¿Qué es BIME Hack Day?',
@@ -418,7 +419,8 @@ var traduccionesEu = {
     asoma: 'Formazio eta aholkatze saioa',
     cooking: 'Arduino kita',
     gogear: 'Merchandising ofiziala eta Premium Kontua.',
-    mobme: 'Entzungauilu Bluetooth Energy wireless Bt5 dark iron.'
+    mobme: 'Entzungauilu Bluetooth Energy wireless Bt5 dark iron.',
+    nvivo: 'Sarrera bikoitza edozein kontzerturako Espainan 2013/2014an (Max. 100€ bi sarrerak).'
   },
   que_esSeccion: {
     breadcrumbs: 'Zer da BIME Hack Day?',
