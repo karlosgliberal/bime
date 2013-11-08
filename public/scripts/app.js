@@ -439,7 +439,229 @@ var traduccionesEu = {
   }
 }
 
- 
+var traduccionesEn = {
+  ver_mas: 'MORE',
+  MAS_INFORMACION: 'For more information',
+  INSCRIBETE: 'Sign up',
+  IMG_CABECERA: '/img/banner.png',
+  
+  inicio: 'Home',
+  hackx24_var: 'Hackx24',
+  que_es: 'What is it?',
+  BIME: 'BIME',
+  horarios: 'Schedule',
+  conferencias: 'Lectures',
+  premios: 'Rewards',
+  comunidad: 'Community',
+  info: '+ Info',
+  main:{
+    titulo: 'What is BIME Hack Day?',
+    h4: 'With technology and technical support:',
+    activida_titulo: 'Activities',
+    premios: '<strong> 1500 € </strong > BIME Hack Day Reward for best development',
+    subpremios: '',
+    partners: 'Rewards from our Partners',
+    spotify: '1-year Premium Account.',
+    deezer: '1-year Premium Account.',
+    aws: '1-year Premium Account.',
+    delirum: 'Videogames: "Los Ríos de Alice" & "Los Delirios de Von Sottendorff for 3DS”',
+    asoma: 'Professional Internship.',
+    cooking: 'Arduino Kit.',
+  },
+  PRESENTACION:{
+    TITULO: 'Reward for best development in each node <strong>TWO PASSES </strong> for <strong> BILBAO BBK LIVE 2014 </strong> and <strong> TWO PASSES </strong> for <strong> BIME LIVE </strong >',
+    SUBTEXTO: 'Spain’s largest unconference meeting, specially created to encourage <strong> CREATIVITY </strong> and <strong> INVENTION </strong>, it will bring together music lovers, fans of new technologies and professionals working at leading companies of this field. Two days during which <strong>MAKERS </strong>, <strong>HACKERS</strong> and <strong>DEVELOPERS </strong> will lay the foundation for the platforms of the future.',          
+    TEXTO: 'For two days, different activities will take place, such as contests, talks, workshops and a hackx24 (24 hour hackathon), all related to the music industry. Attendees will have the unique opportunity of testing the latest products in the market, contacting the most important companies, showing their works to a specialized public, growing a community and winning great prizes. An intense day lasting 36 hours which will create the future of music, and especially where there will be something to be learned and to be shared.'
+  },
+  bime: {
+    breadcrumb:'What is BIME?',
+    titulo: 'What is BIME?',
+    pro: 'BIME wants to provide a meeting place where professionals in music and other industries, such as new technologies, telephony and applications, video games or fashion, can exchange and create new business. Enclosures adapted to host professional meetings will welcome authorized visitors from all over the world coming to listen, share, discover. Enclosures adapted to host professional meetings will welcome authorized visitors from all over the world coming to listen, share, discover.',
+    live:'BIME LIVE will host the most important and relevant artists in music today as well as the future promises of the local and international scene, turning it into one of the mayor winter festivals in Europe. Many of these bands will come to present their new record releases, some of them acting in exclusive date in Spain. Public will arrive from all corners of Spain as well as from various European countries.',
+    market: 'BIME MARKET will be the exhibition area where the public attending BIME LIVE will have the opportunity of making contact with the music industry’s major companies: labels, festivals, digital platforms, social networks, training centers and many others. They will present their activities and innovations, apart from  selling their products to the public. It will also be a perfect setting for all professionals who want to approach these companies and close deals. There will also be a stage for exhibitors to make presentations of their businesses, as for artists to respond to interview questions and sign albums.',
+    city: 'Biscay and the city of Bilbao have during all year a large cultural agenda. Therefore, during the month of November, activities of national and international importance will take place in Bilbao. BIME has reached agreements with the people in charge of these national and international events to make mutual promotion and develop collaborative activities. The purpose is to encourage exchanges between professionals and make the cultural richness of Biscay widely known.'
+  },
+  ACTIVIDADES:{
+    TITULO: 'Activities',
+    SUBTITULO_24: 'Hackathon <br> Hackx24',
+    TEXTO_24: 'Make your dream come true with your team and your favorite companies. You have 24 hours; the best applications will be awarded. Action areas are divided into <a target="_blank" href="/#/hackx24">NODOS</a>.',
+    SUBTITULO_CHARLAS: 'Lectures and Workshops',
+    TEXTO_CHARLAS: 'Discover and test new technologies and techniques given by professionals.<br> Youll have access to all these experiences, participate! Seating is limited, so please fill in the registration form',
+    SOLO: '100 Jobs, are you going to go without yours?'
+  },
+  PREMIOS:{
+    TITULO: 'Rewards'
+  },
+  comunidadSeccion: {
+    comun:'Community',
+    texto: 'Join our community in order to be informed of all the news concerning BIME Hack Day!',
+    google: 'Google+',
+    twitter: 'Twitter'
+  },
+  condiciones: {
+    breadcrumb:'Conditions of participation',
+    titulo: 'Conditions of participation',
+    subtitulo: 'Normas generales BIME HackDay',
+    p1: 'La participación en el BIME HACK DAY implica el total y estricto conocimiento y aceptación de las bases y condiciones aquí detalladas, así como aceptación de las decisiones que posteriormente pueda adoptar Last Tour de acuerdo a lo previsto en las presentes Bases.',
+    p2: 'Last Tour no se hará responsable de errores técnicos o derivados del mal funcionamiento electrónico de cualquier red, “hardware” o “software”; error humano, técnico o de cualquier otro tipo que pueda ocurrir durante el evento.',
+    p3: '<strong>Derechos de participación:</strong><br> El bime hack day está abierto a todas los públicos mayores de 18 años que deseen tomar parte en él, ó entendiendo que los menores de edad irán acompañados de su responsable legal. Los asistentes podrán participar tanto de manera individual como en grupos. Asimismo será necesario cumplimentar el formulario de inscripción individualmente o en su defecto comprar la entrada en taquilla el mismo día. El aforo está limitado a 100 personas y no se realizará selección alguna de proyectos o participantes, el más rápido asegurará su asistencia.',
+    p4: 'Es de gran importancia leer y entender las directrices de participación y ser conscientes de ellas durante el Bime HackDay para el correcto funcionamiento del evento. El acceso a las instalaciones conlleva el conocimiento y la aceptación de estas normas.',
+    p5: '<strong>Instalaciones e infraestructura:</strong><br> Los espacios donde se llevarán a cabo todas las actividades del HackDay han sido alquilados ya que cumplen todos los requisitos necesarios para el correcto desarrollo del evento. La organización velará en todo momento por todas las necesidades de los participantes. Por otra parte el material necesario para las actividades también es alquilado o propiedad de colaboradores por lo que se necesita la implicación de todos para la correcta utilización de los mismos y sobre todo resaltar la importancia que tiene dejar tanto las instalaciones como el material y todo lo que se utilice en el mismo estado en el que se encontró o mejor de lo que estaba.',
+    p6: '<strong>Horarios, acreditación y estancia</strong><br>La apertura de puertas a BIME HD se hará el día 20 de noviembre a las 9:00h. Para poder acceder al recinto habrá que pasar por taquilla y dar el nombre y  DNI para recoger una pulsera que habilitará la entrada. No estará permitido entrar o salir por la noche a partir de las 22:30h. Se habilitará una zona donde los asistentes podrán dormir con sacos de dormir y esterilla, este espacio se abrirá a partir de las 23:30h y deberá estar vacío a las 10:00h. Habrá un servicio de comida y bebida self service que asegurará que durante dos horas haya comida para todo aquel que la solicite. Fuera de esas dos horas no está garantizado el suministro de alimentos.',
+    p7: '<strong>Hackx24, contest, charlas y workshops</strong><br> Los participantes podrán participar en todas estas actividades al mismo tiempo. Cada uno deberá organizar su tiempo en función de sus intereses. Todos aquellas personas o equipos que reciban un premio deberán estar presentes en la entrega final de premios. El premio económico será entregado mediante transferencia en cuenta bancaria y estarán sujetos a las retenciones pertienentes. El resto de premios serán entregados en persona por el jurado. Todos los desarrollos realizados en el contest de 24 horas serán abiertos en su presentación y no estarán sujetos a ningún tipo de propiedad intelectual. Las charlas y worshops no están restringidos en asistencia por inscripción, pero los espacios y el material destinado para cada uno de ellos si que es limitado.',
+    p8: '<strong>Protección de datos</strong><br>El participante autoriza que los datos obtenidos a partir de su participación en la Hackathon se utilicen en el material publicitario relacionado con el presente concurso, incluido internet, sin percibir contraprestación alguna. Todos los datos que se soliciten a este efecto son de cumplimentación obligada. En cumplimiento de la LOPD y con arreglo al artículo 5 se informa que los datos facilitados para participar en el concurso serán incorporados temporalmente en un fichero de datos de su titularidad siendo eliminados una vez finalizado el concurso y que en caso de ser finalista y/o ganador será necesario que facilite datos adicionales para la entrega del premio.',
+    p9: '<strong>DERECHOS DE PROPIEDAD INTELECTUAL E INDUSTRIAL. </strong><br>Los participantes, por el mero hecho de aceptar estas bases legales declaran expresamente que el código desarrollado para la aplicación es enteramente original y que no está protegido por derechos de terceras personas y otorgan a Last tour y los patrocinadores una indemnidad por cualquier eventual reclamación por parte de un tercero, incluidos costes legales de representación. La aceptación de un proyecto por parte de Last tour y los patrocinadores ó  la concesión de un premio por parte del Jurado no conlleva ningún tipo de aceptación implícita o explícita acerca de las originalidad de la idea. Los participantes en el concurso consienten el uso de sus ideas, aplicaciones y de sus datos para incorporar y/ó publicar a través de, entre otras, la Appstore o Google Play, sin que dicha utilización les confiera derecho alguno a ningún tipo de compensación económica. Los equipos ganadores o participantes en el concurso pueden estar sujetos a la firma de un documento de cesión de derechos a favor de Last tour ó los patrocinadores. Todos los derechos sobre el concurso son propiedad de last Tour. Los participantes se hacen responsables de la legalidad del software utilizado en el proyecto presentado. TODOS LOS PARTICIPANTES, INCLUIDO LOS NO PREMIADOS, SE COMPROMETEN A QUE LAS PROPUESTAS QUE PRESENTAN SON ORIGINALES Y QUE LA CESIÓN SEÑALADA EN PÁRRAFOS ANTERIORES NO VULNERAN DERECHOS DE TERCEROS DE CUALQUIER NATURALEZA O DISPOSICIONES NORMATIVAS Y ESTÁN LIBRES DE CARGAS, GRAVÁMENES Y DERECHOS DE TERCEROS. Los participantes, por tanto, mantendrán indemne en todo momento a los promotores ante reclamaciones de terceros y serán responsables asumiendo íntegramente a su cargo cualquier coste o carga que pudiera derivarse a favor de terceros como consecuencias de acciones, reclamaciones o conflictos derivados del incumplimiento de las obligaciones establecidas en las presentes Bases. Last tour se reserva la facultad de adoptar cuantas medidas resulten oportunas para evitar cualquier conducta de la que sospeche que tenga por finalidad o efecto cualquier intento de actuar en fraude del presente Concurso o en incumplimiento de sus normas o en perjuicio de otros participantes, cuya primera e inmediata consecuencia será la exclusión del participante y la pérdida de todo derecho al premio que eventualmente hubiese obtenido. Asimismo, Last tour se reserva el derecho a excluir a los participantes en caso de aportar o colgar material que contenga virus, gusanos o cualquier otro código informático dirigido a o apto para dañar, interferir, interceptar o vulnerar la seguridad de cualquier sistema, información o datos, así como cuando los datos personales facilitados sean incorrectos o falsos, sin perjuicio de las correspondientes acciones legales que correspondan.',
+    p10: '<strong>ACEPTACIÓN DE LOS TÉRMINOS Y CONDICIONES</strong><br> Los participantes, por el mero hecho de concursar, aceptan sus bases y el criterio de Last tour en cuanto la resolución de cualquier cuestión derivada del presente Concurso. Last tour se reserva el derecho a introducir cambios en la mecánica o funcionamiento de este Concurso en cualquier momento y/o finalizarla de forma anticipada si fuera necesario por justa causa, sin que de ello pueda derivarse responsabilidad alguna. No obstante, estos cambios se comunicarán debidamente. Last tour hará todo lo posible para evitar que ningún cambio perjudique a unos participantes respecto de otros. Last tour no se responsabiliza de las posibles pérdidas, deterioros, robos, retrasos o cualquier otra circunstancia de fuerza mayor como huelgas u otras ajenas a la compañía, que pudieran afectar al disfrute de los premios, sin asumir por tanto contraprestación o indemnización alguna por estos u otros motivos. Last tour no se responsabiliza de las posibles eventualidades fortuitas que puedan afectar al desarrollo del concurso. En ningún caso Last tour será responsable de los errores en la prestación de los servicios de cualquier otra persona o entidad cuya participación sea necesaria para que el ganador pueda disfrutar el premio. Para el conocimiento de cualquier litigio que pudiera plantearse en cuanto a la interpretación o aplicación de las presentes bases, la ley aplicable será española. Tanto Last tour como los participantes en este Concurso se someten expresamente a la jurisdicción y competencia de los Juzgados y Tribunales de Barcelona, con renuncia expresa a cualquier otro fuero que pudiera corresponderles.',
+    p11: '<strong>PREMIOS</strong><br>Los PREMIOS consisten por una parte, en un premio de 1.500 € (Mil quinientos euros) al ganador del mejor desarrollo BIME Hack Day, así como dos bonos para el Bilbao BBK Live 2014 y BIME Live para el ganador de cada nodo del Hackx24. También habrá premios patrocinados de cada partner. El ganador no podra exigir el cambio del PREMIO por otro, ni por su valor en dinero en efectivo, ni por un bien o servicio distinto de los indicados como PREMIO, de modo que el PREMIO no será negociable. Los premios son de carácter personal, y en consecuencia no se podrán ceder los mismos a un tercero. Last Tour y los PARTNERS se reservan el derecho de cancelar, suspender o modificar estos PREMIOS, por caso fortuito o fuerza mayor u otras circunstancia/s que a criterio de Last Tour así lo justifiquen. En ningún caso el ejercicio de tales derechos por parte de Last Tour dará derecho al participante a reclamo alguno.'
+  },
+  conferenciasSeccion: {
+    breadcrumb: 'Lectures and workshops',
+    titulo: 'Lectures and workshops',
+    texto: 'During BIME Hack Day’s two days, lectures and workshops will take place distributed as follows:',
+    dia20: 'Day 20',
+    dia21: 'Day 21',
+    copyleft: 'Know your rights: CopyLeft',
+    copyleft_titulo: 'Know your rights: CopyLeft',
+    copyleft_texto: 'What’s behind the Creative Commons? What type of licenses does free music use? Lecture - discussion about issues related to music creation and copyright.',
+    copyleft_bio: 'Xavi Balderas is member of AUDIOLAB, a cultural association dedicated to sound research. Based on the experience accumulated over the years in projects developed by several members of the association, such as the organization of festival Otras músicas ERTZ, ARTELEKU contemporary art center’s laboratory of sound, publishing projects (SERIES NEGRAS, NOISE & CAPITALISM) organization of exhibitions (TABAKALERA SUENA, ENTZUNGOR, ZOOO), research ([UN] COMMON SOUNDS, RONA MAUBERE, OPEN SOUND) this association aims to create an open and collaborative platform to promote sound culture in today´s society.',
+    gracias: 'Thank you for your Netlabel',
+    gracias_titulo: 'Thank you for your Netlabel',
+    gracias_texto: 'Net labels Ethics and contemporaneity ... Your own label, the sense of doing it yourself. What is happening with net labels? What remains of this phenomenon after some years? During two hours, we will not only debate and speak about these issues, but we will also learn how to build your own net label in simple steps.',
+    gracias_bio: 'Mikel R. Nieto: Born in Donostia - San Sebastián. He holds a Bachelors Degree in Fine Arts, which he studied in San Sebastian, Madrid and Barcelona. Since quite a lot of years ago, he investigates phonographic practice and its theory. He has conducted workshops in different cultural centers and universities. He is part of the Basque Country’s sound map team, Hots! Radio’s coordinator and co –editor of the platform. http://mikelrnieto.net/ + http://www.soinumapa.net/+ http://www.hots-radio.info/ + http://www.mediateletipos.net/',
+    experimental: 'Idea of Experimental Music',
+    experimental_titulo: 'Idea of Experimental Music',
+    experimental_texto: 'Where does an experimental musician find inspiration? What techniques does he use when creating his compositions?',
+    experimental_bio: 'Fernando Carvalho was born in Lisbon in 1976 . He currently lives in Bilbao. He first became interested in electronic music in the late 90s. Electronic music allows him to approach music as he had always wanted. At first, his work was more experimental, and later he developed a different style more linked to dance music, but still keeping his past curiosity. Nowadays, he has returned to his experimental side and he is dedicated to sound design and field-recording-manipulation.',
+    opensource: 'OpenSource Audio Tools',
+    opensource_titulo: 'OpenSource Audio Tools',
+    opensource_texto: 'Practical workshop which will go over technology used for composing and working open source audio.',
+    opensource_bio: 'Luca Rullo - Expert in Free software and hardware, experimenter of sound and worker of listening. He works with GNU tools and with his own hardware, so as DIY microphones',
+    instrumentos: 'Inventions that become instruments',
+    instrumentos_titulo: 'Inventions that become instruments',
+    instrumentos_texto: 'Helped by his TuniPanea creations, he will make us travel with his sounds and instruments coming from one of the most creative minds of the underground scene.',
+    instrumentos_bio: 'Jonathan Garcia Lana, also known as TUNIPANEA. Belgium - Navarra -Bilbao, he is visual artist, musician and luthier 2.0. Currently, he is dedicated to sound experimentation. He designs, constructs and interprets his own gadgets, made from waste and electronics. In his recent projects he experiments with electronic clothing, monumental projection and sound gardens, which can be found in his website.',
+    d3: 'Soft and Hard 3D printing',
+    d3_titulo: 'Soft and Hard 3D printing',
+    d3_texto: 'The great technological revolution of recent years is certainly digital manufacturing. During this workshop, we will take a look at the necessary software for designing and modeling 3D figures, so as how to print them on a 3D printer. We have already seen the first vinyl printed at home! What comes to your mind?',
+    d3_bio: 'Ivan Blasco Bilbaomakers http://blog.bilbaomakers.org/ One of the most important do it yourself experts in 3D printing in the Basque Country, both in set-up and in calibration. He is coordinator of one of the Summerlabs 3D printing workshops. He has ten years of experience as CNC machine operator.(Bilbao Makers)',
+    generatividad: 'Interactivity and generativity in Art and Music',
+    generatividad_titulo: 'Interactivity and generativity in Art and Music',
+    generatividad_texto: 'A journey through all those works hybridizing Music, sound art and technological experimentation. The linking of these fields will be explained while revising works of artists such as John Cage, pioneer in New Media Art.',
+    generatividad_bio: 'Enrique Hurtado (Electronic Art and Automatic Music). Having a Bachelors Degree in Fine Arts, he works as developer and musician. He creates his own software in order to perform music within the collective ixi- audio.net. He currently combines his professional activity with PhD studies at the EHU / UPV (University of the Basque Country)',
+    arduino: 'Arduino as a DIY instrument',
+    arduino_titulo: 'Arduino as a DIY instrument',
+    arduino_texto: 'During this workshop, we will learn Arduino’s basics. Above all, issues related to the creation of music . Diego will explain us how an mp3 shield works with the main Free Hardware plate and we will also follow the necessary steps to build our own electronic instrument.',
+    arduino_bio: 'Diego Casado Mansilla ( @dieguich ) is a PhD student at the University of Deusto’s MORELab – Internet group. His research focuses on the use of motivational and persuasive techniques to promote pro -environmental behavior (energy , recycling , noise) through interaction with eco- sensitive everyday objects ( eg. coffee machines, printers, screens and electrical appliances in general) . During the workshop, Diego Casado will introduce the Arduino platform and he will go over some of the electronic platforms that have been used in education . Finally, we will revise the visual programming tools that work with Arduino (Scratch , Amici , S4A , ModKit ) and we will introduce Edushield (OSHW shield designed at the University of Deusto).',
+    flow: 'FFlow based programming, the new hype',
+    flow_titulo: 'Flow based programming, the new hype',
+    flow_texto: 'Flow-based programming has been for many years monopolizing the coding / art scene. Some references are programs such as pure-data, max and vvvv. Nevertheless, the noflo project is currently all the rage and is eager to seek new ways within the development world . This talk aims to check the potential of this form of programming , of creating code.',
+    flow_bio: 'Karlos g Liberal (Patxangas): Cyberpunk in spirit, he believes that beauty can be found in codes. Member of Teknotrakitana, electronic experimentation collective, founding member of the cooperative business Investic, and currently occupied with Interzonas.info, he has over 12 years experience in the field of web technology, free software and open hardware.'
+  },
+  inscribir:{
+    titulo: 'Are you going to miss it?',
+    subtitulo: 'What does the ticket include?',
+    p1: 'You can attend all of BIME Hack day’s talks and workshops.',
+    p2: 'You can participate individually or as part of a team in the Hackx24 and aim for the corresponding rewards.',
+    p3: 'You can bring your materials and equipment, show them and share them.',
+    p4: 'You can eat and drink throughout the entire event.',
+    h3: 'Registration fee : 10 € <span class="gastos">+ expenses </span>',
+    gastos: '+ booking fee',
+    condiciones: '* Read conditions of participation',
+    enlace: 'Sign up'
+  },
+  horariosSeccion:{
+    breadcrumb: 'BIME Hack Day Schedule',
+    titulo: 'BIME Hack Day Schedule',
+    dia20: 'Day 20',
+    dia21: 'Day 21',
+    d1: 'Registration of participants and welcome',
+    d2: 'Lectures: Amazon (AWS), nvivo',
+    d3: 'Open Mic',
+    d4: 'API Presentation: Spotify, Deezer, Goear, Nvivo',
+    d5: 'Hackx24 Start',
+    d6: 'Lecture : Know your rights: Copyleft',
+    d7: 'Workshop : Thanks for your Netlabel',
+    d8: 'Lecture: Idea of Experimental Music',
+    d9: 'Workshop: OpenSource Audio Tools',
+    d10: 'Hacking continues!',
+    d11: 'Breakfast',
+    d12: 'Lecture: Idea of Experimental Music',
+    d13: '3D printing, Softs and Hards',
+    d14: 'Lecture : Interactivity and generativity in Art and Music',
+    d15: 'Workshop : Arduino and music',
+    d16: 'Ending of Hackx24',
+    d17: 'Lecture: Flow based programming, the new hype',
+    d18: 'Lecture: Organize your own event (Asoma), Delirium Studios',
+    d19: 'Hackx24 Presentations',
+    d20: 'Awards Ceremony',
+    d21: 'Closure',
+    d22: '* Lunch will be served between 1 p.m. and 3.30 p.m. Dinner will be served at 10 p.m.'
+  },
+  infoSeccion: {
+   breadcrumbs: '+info',
+   titulo: '+ Info',  
+   donde: 'Where will BIME Hack Day take place?',
+   mapa: 'Map',
+   llegar: 'How to get to the BEC',
+   parking: 'Parking BEC',
+   dudas: 'Should you have any questions please do not hesitate to contact us',
+   p1: 'All BIME and BIME Hack Day activities will be held at the BEC (Bilbao Exhibition Centre). BIME Hack Day will take place on the fifth floor',
+   p2: '<strong> Address </strong> <br> BEC ( 5th floor) <br> 1, Ronda de Azkue 48902 Ansio <br> Barakaldo, Biscay',
+   p3: '<strong> Take the Underground </strong > <br>Line 2 Portugalete, exit Ansio (the station is in the northern entrance to the BEC)',
+   p4: '<strong> By car </strong > <br> From Bilbao / Bilbo, take the A-8 towards "Santander", exit 8: Barakaldo / Bilbao Exhibition Centre BEC.',
+   p5: 'From Álava / Araba take the A- 68 towards " Bilbao " take the A-8 towards "Santander" exit 8 Barakaldo / Bilbao Exhibition Centre BEC',
+   p6: 'From Guipúzcoa / Gipuzkoa, take the A-8 towards " Bilbao " Exit 19 : Airport / Getxo and then head towards Santander through the Rontegi bridge, Exit 9: Barakaldo/ Bilbao Exhibition Centre BEC.',
+   p66:'From Santander, take the A-8 towards "Bilbao", Exit 9 : Baracaldo / Bilbao Exhibition Centre BEC',
+   p7: 'The BEC’s parking has 3 entrances and 3 exits . A, B and C. (See map) Altogether, it has 4,000 spaces divided into 3 levels. Each level is divided into three color-coded areas',
+   p8: 'The blue area is located under halls 1 and 2. The orange area is placed under halls 3 and 4. The green area is located under halls 5 and 6.',
+   p9: 'The parking ticket paying machines are located throughout the atrium. They are clearly labeled through the letter P for parking . There is an outdoor pedestrian access located next to the Underground station Ansio. (See map). This access has also 2 parking ticket paying machines. The opening hours of the parking are: Gate C: 24 hours Gates A and B: from 7.30 am on',
+   p10: 'CONTACT: <a href="mailto:info@bimehackday.net?Subject=Contacto desde bimehackday.net" target="_top">info@bimehackday.net</a>',
+  },
+  hackx24: {
+    breadcrumb: 'Hackx24',
+    h4: 'Nodos map',
+    titulo: 'Hackx24',
+    texto: 'Hackx24 is an encounter between technology developers (hardware and software) which aim to carry out an innovative collaborative project during 24 hours. Besides, partner companies want to reward your work by means of different contests . The best projects will be awarded in the following categories:',
+    l1: '<strong> First BIME Hack Day Reward for best development: 1500 € </strong > <br> All projects developed during Hackx24 will be eligible for this award.',
+    l2: '<strong> Second Common Reward: 2 Passes for Bilbao BBK Live + 2 Passes for BIME Live </strong> <br> All rewards will be accompanied by these 4 Passes for each winner',
+    l3: '<strong> Sponsored Awards: </strong> <br> Each partner company will offer <a target="_blank" href="/#/rewards"> different rewards </a>'
+  },
+  premiosSeccion: {
+    breadcrumbs: 'Rewards',
+    titulo: 'Rewards',
+    texto: '<strong> 1500 € </strong>BIME Hack Day Reward for best development',
+    subtexto: 'Reward for best performance in each node: <strong> TWO PASSES </strong > for <strong> BILBAO BBK LIVE 2014 </strong > and <strong> TWO PASSES </strong> for <strong>BIME LIVE </strong >',
+    h4: 'Rewards from our partners',
+    spotify: 'Cuenta Premium para un año.',
+    deezer: 'Cuenta Premium para un año.',
+    aws: 'Cuenta Premium para un año.',
+    delirum: 'Pack de videojuegos.',
+    asoma: 'Jornada de Formación y asesoramiento.',
+    cooking: 'Kit de arduino.',
+    gogear: 'Merchandising oficial & Premium Account.',
+    mobme: 'Headphones Bluetooth Energy wireless Bt5 dark iron.',
+    nvivo: 'Two tickets for any music show in Spain btw 2013/2014 (Max. 100€ both tickets)',
+    ludei: 'CocoonJS Premium Account.'
+  },
+
+
+  que_esSeccion: {
+    breadcrumbs: 'What is BIME Hack Day?',
+    titulo: 'What is BIME Hack Day?',
+    p1: 'Can you imagine bringing together in the same place the most innovative companies and the best developers?',
+    p2: 'There’s just you left! If you love music and new technologies write down this date!',
+    p3: 'November 20 and 21',
+    p4: 'Spain’s largest unconference meeting, specially created to encourage <strong>CREATIVITY</strong> and <strong> INVENTION </strong>, it will bring together music lovers, fans of new technologies and professionals working at leading companies of this field. Two days during which <strong>MAKERS </strong>, <strong>HACKERS </strong> and <strong>DEVELOPERS </strong> will lay the foundation for the platforms of the future.',
+    p5: 'Attendees will have the unique opportunity of testing the latest products in the market, contacting the most important companies, showing their works to a specialized public, growing a community and winning great prizes. An intense day lasting 36 hours which will create the future of music, and especially where there will be something to be learned and to be shared.',
+    p6: '<strong> BIME Hack Day </strong > offers you the unique opportunity to participate in workshops and attend lectures, technical presentations on APIs, software development, personal experiences, success stories and a 24 hour hackathon during which you are entitled to receive technical support from our partners.',
+  },
+  PIE:{
+    TITULO:'Follow BIME Hack Day' 
+  }
+}
+
+
+
 
 angular.module('bimeApp', ['cabecera', 'footer', 'footerInscribir', 'footerPartner', 'EnvioCorreoService', 'pascalprecht.translate', 'ngCookies'])
   .config(function ($routeProvider, $translateProvider) {
@@ -490,6 +712,7 @@ angular.module('bimeApp', ['cabecera', 'footer', 'footerInscribir', 'footerPartn
  
     $translateProvider.translations('es', traduccionesEs)
     $translateProvider.translations('eu', traduccionesEu)
+    $translateProvider.translations('en', traduccionesEn)
     $translateProvider.preferredLanguage('es');
     $translateProvider.useCookieStorage();
   });
