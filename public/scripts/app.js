@@ -26,7 +26,7 @@ var traduccionesEs = {
     spotify: 'Cuenta Premium para un año.',
     deezer: 'Cuenta Premium para un año.',
     aws: 'Cuenta Premium para un año.',
-    delirum: 'Pack de videojuegos.',
+    delirum: ' Videojuegos: "Los Ríos de Alice" & "Los Delirios de Von Sottendorff para 3DS".',
     asoma: 'Jornada de Formación y asesoramiento',
     cooking: 'Kit de arduino.',
   },
@@ -202,7 +202,8 @@ var traduccionesEs = {
     cooking: 'Kit de arduino.',
     gogear: 'Merchandising oficial & Cuenta Premium.',
     mobme: 'Auriculares Bluetooth Energy wireless Bt5 dark iron.',
-    nvivo: 'Entrada doble para cualquier concierto en territorio nacional 2013/2014 (Max.100€ ambas entradas).'
+    nvivo: 'Entrada doble para cualquier concierto en territorio nacional 2013/2014 (Max.100€ ambas entradas).',
+    ludei: 'Cuenta premium CocoonJS.'
   },
   que_esSeccion: {
     breadcrumbs: '¿Qué es BIME Hack Day?',
@@ -244,7 +245,7 @@ var traduccionesEu = {
     spotify: 'Urte oso baterako Premium Kontua',
     deezer: 'Urte oso baterako Premium Kontua',
     aws: 'Urte oso baterako Premium Kontua',
-    delirum: 'Pack jokoa',
+    delirum: 'Videojokoak: "Los Ríos de Alice" & "Los Delirios de Von Sottendorff 3DSrako".',
     asoma: 'Formazio eta aholkatze saioa',
     cooking: 'Arduino kita',
   },
@@ -415,12 +416,13 @@ var traduccionesEu = {
     spotify: 'Urte oso baterako Premium Kontua',
     deezer: 'Urte oso baterako Premium Kontua',
     aws: 'Urte oso baterako Premium Kontua',
-    delirum: '“Los Mundos de Alice” jokoa',
+    delirum: 'Videojokoak: "Los Ríos de Alice" & "Los Delirios de Von Sottendorff 3DSrako"',
     asoma: 'Formazio eta aholkatze saioa',
     cooking: 'Arduino kita',
     gogear: 'Merchandising ofiziala eta Premium Kontua.',
     mobme: 'Entzungauilu Bluetooth Energy wireless Bt5 dark iron.',
-    nvivo: 'Sarrera bikoitza edozein kontzerturako Espainan 2013/2014an (Max. 100€ bi sarrerak).'
+    nvivo: 'Sarrera bikoitza edozein kontzerturako Espainan 2013/2014an (Max. 100€ bi sarrerak).',
+    ludei: 'CocoonJS Premium Kontua.'
   },
   que_esSeccion: {
     breadcrumbs: 'Zer da BIME Hack Day?',

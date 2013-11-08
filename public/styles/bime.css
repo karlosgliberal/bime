@@ -178,6 +178,13 @@ padding-top: 40px;
   background-color: #FFF;
   text-align: center;
    margin: 10px;
+   min-height: 252px;
+}
+
+.premio-item-comodin {
+  background-color: #FFF;
+  text-align: center;
+   margin: 10px;
 }
 
 #premios h3 {
@@ -496,6 +503,7 @@ h4.patrocinios {
 }
 #premios-seccion .premio-item {
   border: 1px solid #00C6FF;
+  min-height: 288px;
 }
 
 .comunidad .contenido {
