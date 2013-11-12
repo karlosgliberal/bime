@@ -118,7 +118,18 @@ var traduccionesEs = {
     flow: 'Flow based programming, el nuevo hype',
     flow_titulo: 'Flow based programming, el nuevo hype',
     flow_texto: 'La programación orientada a Flujos (una mala traducción) es algo que ha estado desde muchos años copando la escena del coding/art.  Programas como: pure-data, max, vvvv son referencias. Pero ahora el proyecto noflo viene pisando fuerte y con ganas de buscar nuevos paradigmas en el mundo del desarrollo. Con esta charla se quiere hacer un repaso del potencial de esta forma de programar, de crear código.',
-    flow_bio: 'Karlos g Liberal (Patxangas): Cyberpunk de espíritu, cree que en el código se puede encontrar la “belleza” Miembro del colectivo de experimentación electrónica Teknotrakitana y socio fundador de la cooperativa Investic y actualmente embarcado en Interzonas.info, lleva mas de 12 años de experiencia trabajando con tecnologías web, software libre y hardware abierto.'
+    flow_bio: 'Karlos g Liberal (Patxangas): Cyberpunk de espíritu, cree que en el código se puede encontrar la “belleza” Miembro del colectivo de experimentación electrónica Teknotrakitana y socio fundador de la cooperativa Investic y actualmente embarcado en Interzonas.info, lleva mas de 12 años de experiencia trabajando con tecnologías web, software libre y hardware abierto.',
+    nvivo_titulo: 'Yo me lo guiso, yo me lo como: saca el mayor rendimiento a las herramientas de promoción',
+    nvivo_texto: 'Cada vez hay más redes sociales, más herramientas de promoción, crowdfunding, ticketing y APIs, trataremos de dar sentido a todo este ecosistema y descubrir la mejor forma de sacar partido a todas estas herramientas.La idea es acercar a los profesionales del sector las posibilidades con las que cuentan en el mercado, seleccionar aquellas que mejor se adapten a sus necesidades, optimizar, automatizar y poder cuantificar los resultados.',
+    nvivo_bio: 'Carla Saiz, con 6 años de experiencia en el sector de Internet, Clara Saiz es Responsable de Marketing Online en nvivo.es y 5gig. Es co-fundadora de Yolafilmo.com, colectivo de proyectos audiovisuales para promover la cultura. Licenciada en Comunicación Audiovisual por Universidad Francisco de Vitoria de Madrid, cuenta con un Master en Analítica Web en KSchool.',
+    guifi_titulo: 'Tecnologías para la participación y el empoderamiento colectivo',
+    guifi_texto: 'Guifi.net es una red de telecomunicaciones abierta, libre y neutral que nació en los alrededores de la localidad catalana de Gurb y tras mas de 12 años de trayectoria cuenta con más de 20.000 nodos operativos. Los propietarios de los nodos son particulares, empresas y organizaciones que libremente se conectan a ésta, ayudando así a extenderla. Actualmente se trata del modelo más cercano a la ciudadanía y al procomún, permitiendo el acceso a una auténtica red abierta de telecomunicaciones, haciendo llegar allí donde hagan falta la infraestructura y los contenidos que de otra manera no serían accesibles.',
+    guifi_bio: 'Dabid Martinez, trabaja en la dirección de proyectos en la cooperativa Gaueko, especialistas en trabajos bajo software libre. Comenzó a apasionarse por la informática desde bien pequeño y al crecer se dio cuenta de que esta podía ayudar al desarrollo de una sociedad mas consciente, ética y justa. Actualmente colabora en diferentes colectivos tecno-sociales como pueden ser guifi.net, hack.in#badakigu, Reciclanet o la misma cooperativa de la que es socio, Gaueko.'
+
+
+
+
+
   },
   inscribir:{
     titulo: '¿Te lo vas a perder?',
@@ -339,7 +350,14 @@ var traduccionesEu = {
     flow:'Flow based programming, hype berria',
     flow_titulo: 'Flow based programming, hype berria',
     flow_texto: 'Pure-data, max edota vvvv programak dira aitzindari, baina Noflo proiektua eroso dator garapenaren munduan paradigma berrien bila. Hitzaldi honetan programatzeko era honen indarra azpimarratu nahi du.',
-    flow_bio: 'Karlos g Liberal (Patxangas): Cyberpunka dauka barnean eta kodean edertasuna aurki daitekeela uste du. Teknotrakitana esperimentazio elektronikoko taldekidea da, Investic kooperatibako sortzaileetako bat eta gaur egun Interzonas.info gunean dago. Web teknologietan, software askeetan eta hardware irekietan hamabi urte baino gehiagoko esperientzia dauka.'
+    flow_bio: 'Karlos g Liberal (Patxangas): Cyberpunka dauka barnean eta kodean edertasuna aurki daitekeela uste du. Teknotrakitana esperimentazio elektronikoko taldekidea da, Investic kooperatibako sortzaileetako bat eta gaur egun Interzonas.info gunean dago. Web teknologietan, software askeetan eta hardware irekietan hamabi urte baino gehiagoko esperientzia dauka.',
+    nvivo_titulo: 'Neuk egin eta neuk jan: sustapen-tresnei ahalik eta etekin gehien atera iezaiezu.',
+    nvivo_texto: 'Gero eta gizarte-sare gehiago dago, baita gero eta sustapen-tresna gehiago ere, masa finantzaketa, ticketing eta API-ak… ekosistema berri honen esanahia aurkitzen saiatuko gara, baita ere tresna hauei guztiei ahalik eta etekin gehien ateratzen.Gure asmoa merkatuan dauden aukera guztien berri ematea da, profesionalek eurentzat hoberenak direnak aukeratzearren, emaitzak hobetzeko, automatizatzeko eta zenbatzeko',
+    nvivo_bio: 'Carla Saiz, sei urteko esperientzia du Interneten eta gaur egun online marketineko arduraduna da, NVIVO eta 5gig taldeetan. Yolafilmo.comeko sortzaileetako bat da, kultura sustatzeko ikus-entzunezko proiektuetan diharduen taldea, alegia.  Madrileko Francisco de Vitoria Unibertsitatean Ikus-entzunezko Komunikazioan Lizentziaduna da eta KSchooleko Web Analitikan Masterduna ere.',
+    guifi_titulo: 'Guifi',
+    guifi_texto: 'GUIFI Telekomunikazio sare irekia da, askea eta neutrala. Kataluniako Gurb herriaren inguruetan hasi zen eta, gaur egun, hamabi urteko ibilbidea duelarik, 20.000 nodo eragile baino gehiago du. Nodoen jabeak sarera aske konektatzen diren partikularrak, enpresak edota erakundeak dira, horrela sarea hedatzen lagunduz. Gaur egun, herritarretik hurbilen dagoen modeloa da. Izan ere, benetako telekomunikazio sare batera konektatzeko aukera ematen du, edozein tokira beharrezkoak diren azpiegiturak eta edukiak heltzea ahalbidetzen baitu, horrela ez izatekotan ez bailitzateke posible izango.',
+    guifi_bio: 'Dabid Martinezek proiektuak zuzentzen ditu Gaueko Kooperatiban, software askearekin egindako lanetan espezialistak. Txikitatik informatikazale amorratua da, eta, haztean, gizarte ohartuagoa, etikoagoa eta bidezkoagoa garatzen lagun zezakeela konturatu zen. Orain hainbat kolektibotan lan egiten du, esaterako: guifi.net, hack.in#badakigu, Reciclanet edota Gaueko Kooperatiba, bertako kidea denez gero.'
+
   },
   inscribir:{
     titulo: 'Aukeraz baliatu!',
@@ -560,7 +578,15 @@ var traduccionesEn = {
     flow: 'FFlow based programming, the new hype',
     flow_titulo: 'Flow based programming, the new hype',
     flow_texto: 'Flow-based programming has been for many years monopolizing the coding / art scene. Some references are programs such as pure-data, max and vvvv. Nevertheless, the noflo project is currently all the rage and is eager to seek new ways within the development world . This talk aims to check the potential of this form of programming , of creating code.',
-    flow_bio: 'Karlos g Liberal (Patxangas): Cyberpunk in spirit, he believes that beauty can be found in codes. Member of Teknotrakitana, electronic experimentation collective, founding member of the cooperative business Investic, and currently occupied with Interzonas.info, he has over 12 years experience in the field of web technology, free software and open hardware.'
+    flow_bio: 'Karlos g Liberal (Patxangas): Cyberpunk in spirit, he believes that beauty can be found in codes. Member of Teknotrakitana, electronic experimentation collective, founding member of the cooperative business Investic, and currently occupied with Interzonas.info, he has over 12 years experience in the field of web technology, free software and open hardware.',
+    nvivo_titulo: 'I cook it, I eat it": take the most out of promotional tools',
+    nvivo_texto: 'Nowadays, the number of social networks, promotional tools, crowdfunding, ticketing and APIs is growing, so we will try to give sense to this ecosystem and discover the best way to take advantage of all these tools. The idea is to bring closer the different possibilities that are on the market to professionals in this field, to select those that best suit their needs, to optimize, to make automatic and to quantify the results.',
+    nvivo_bio: 'Carla Saiz, Having six years of experience in the Internet sector, Clara Saiz is Online Marketing Manager at nvivo.es and 5gig. She is also co -founder of Yolafilmo.com, a group that makes audiovisual projects in order to promote culture. She has a Degree in Audiovisual Communication from the University Francisco de Vitoria in Madrid, and a Master’s Degree in Web Analytics from KSchool.',
+    guifi_titulo: 'Guifi',
+    guifi_text: 'Guifi.net is a free, open and neutral telecommunications network which came into being near the Catalonian town of Gurb and which after more than 12 years of career has more than 20,000 operational nodes. The owners of the nodes are individuals, companies and organizations that voluntarily connect to this network, thus helping to expand it. Currently, this model is considered the closest to citizens and common good, it enables to access to a big open telecommunications network, which helps to obtain wherever it may be necessary infrastructure and content that would otherwise may not be accessible.',
+    guifi_bio: 'Dabid Martinez works in project management at cooperative Gaueko, company dedicated to producing free software. Since he was a child, computers were his passion, so when he grew up he realized that he could contribute to develop a more conscious, ethical and fair society. Currently, he works with different techno- social associations such as guifi.net, hack.in # badakigu, Reciclanet and Gaueko, the cooperative of which he is partner.'
+
+
   },
   inscribir:{
     titulo: 'Are you going to miss it?',
