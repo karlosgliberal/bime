@@ -204,7 +204,8 @@ var traduccionesEs = {
     gogear: 'Merchandising oficial & Cuenta Premium.',
     mobme: 'Auriculares Bluetooth Energy wireless Bt5 dark iron.',
     nvivo: 'Entrada doble para cualquier concierto en territorio nacional 2013/2014 (Max.100€ ambas entradas).',
-    ludei: 'Cuenta premium CocoonJS.'
+    ludei: 'Cuenta premium CocoonJS.',
+    sca: 'Tablet Nexus 7 al mejor desarrollo en el nodo Mobile App.',
   },
   que_esSeccion: {
     breadcrumbs: '¿Qué es BIME Hack Day?',
@@ -424,7 +425,8 @@ var traduccionesEu = {
     gogear: 'Merchandising ofiziala eta Premium Kontua.',
     mobme: 'Entzungauilu Bluetooth Energy wireless Bt5 dark iron.',
     nvivo: 'Sarrera bikoitza edozein kontzerturako Espainan 2013/2014an (Max. 100€ bi sarrerak).',
-    ludei: 'CocoonJS Premium Kontua.'
+    ludei: 'CocoonJS Premium Kontua.',
+    sca: 'Tablet Nexus 7 garapen hoberena Mobile App arean.'
   },
   que_esSeccion: {
     breadcrumbs: 'Zer da BIME Hack Day?',
@@ -644,7 +646,8 @@ var traduccionesEn = {
     gogear: 'Merchandising oficial & Premium Account.',
     mobme: 'Headphones Bluetooth Energy wireless Bt5 dark iron.',
     nvivo: 'Two tickets for any music show in Spain btw 2013/2014 (Max. 100€ both tickets)',
-    ludei: 'CocoonJS Premium Account.'
+    ludei: 'CocoonJS Premium Account.',
+    sca: 'Tablet Nexus 7 for the best develop on Mobile App area.'
   },
 
 
