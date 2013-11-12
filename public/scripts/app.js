@@ -29,6 +29,7 @@ var traduccionesEs = {
     delirum: ' Videojuegos: "Los Ríos de Alice" & "Los Delirios de Von Sottendorff para 3DS".',
     asoma: 'Jornada de Formación y asesoramiento',
     cooking: 'Kit de arduino.',
+    sca: 'Tablet Nexus 7 al mejor desarrollo en el nodo Mobile App.',
   },
   PRESENTACION:{
     TITULO: '',
@@ -248,6 +249,7 @@ var traduccionesEu = {
     delirum: 'Videojokoak: "Los Ríos de Alice" & "Los Delirios de Von Sottendorff 3DSrako".',
     asoma: 'Formazio eta aholkatze saioa',
     cooking: 'Arduino kita',
+    sca: 'Tablet Nexus 7 garapen hoberena Mobile App arean.'
   },
   PRESENTACION:{
     TITULO: '',
@@ -467,6 +469,7 @@ var traduccionesEn = {
     delirum: 'Videogames: "Los Ríos de Alice" & "Los Delirios de Von Sottendorff for 3DS”',
     asoma: 'Professional Internship.',
     cooking: 'Arduino Kit.',
+    sca: 'Tablet Nexus 7 for the best develop on Mobile App area.'
   },
   PRESENTACION:{
     TITULO: 'Reward for best development in each node <strong>TWO PASSES </strong> for <strong> BILBAO BBK LIVE 2014 </strong> and <strong> TWO PASSES </strong> for <strong> BIME LIVE </strong >',
